@@ -1,4 +1,8 @@
+DROP DATABASE IF EXISTS normalisationsql;
+CREATE DATABASE normalisationsql;
+
 \c normalisationsql;
+
 CREATE TABLE nc_students
 (
     student_id INT PRIMARY KEY,
