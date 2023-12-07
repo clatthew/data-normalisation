@@ -12,8 +12,6 @@ CREATE TABLE nc_rentals
     movies_rented VARCHAR
 );
 
-
-
 INSERT INTO nc_rentals
     (full_name, title, preferred_name, address, movies_rented)
 VALUES

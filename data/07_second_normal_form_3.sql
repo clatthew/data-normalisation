@@ -12,8 +12,6 @@ CREATE TABLE nc_vegetables
     price FLOAT
 );
 
-
-
 INSERT INTO nc_vegetables
     (product_id, vegetable, colour, size, price)
 VALUES

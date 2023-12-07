@@ -44,14 +44,14 @@ VALUES
 INSERT INTO exam_results
     (score_id, student_id, subject_id, score, teacher)
 VALUES
-(1, 30058, 1, 75, 'Mr Mulvey'),
-(2, 30058, 2, 82, 'Mr Copley'),
-(3, 40254, 3, 76, 'Ms Baines'),
-(4, 40254, 4, 99, 'Ms Aldred'),
-(5, 40254, 2, 88, 'Mr Copley'),
-(6, 50183, 1, 83, 'Mr Mulvey'),
-(7, 50183, 5, 86, 'Mr Duncan'),
-(8, 60825, 3, 93, 'Ms Baines');
+(1, 30058, 1, 75, 'Prof Mulvey'),
+(2, 30058, 2, 82, 'Prof Copley'),
+(3, 40254, 3, 76, 'Prof Baines'),
+(4, 40254, 4, 99, 'Prof Aldred'),
+(5, 40254, 2, 88, 'Prof Copley'),
+(6, 50183, 1, 83, 'Prof Mulvey'),
+(7, 50183, 5, 86, 'Prof Crawley'),
+(8, 60825, 3, 93, 'Prof Baines');
 
 
 SELECT * FROM nc_students;
