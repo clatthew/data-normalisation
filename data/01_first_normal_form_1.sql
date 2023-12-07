@@ -3,6 +3,7 @@ CREATE DATABASE normalisationsql;
 
 \c normalisationsql;
 
+
 CREATE TABLE students
 ( 
     student_id INT PRIMARY KEY,

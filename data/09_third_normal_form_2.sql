@@ -1,3 +1,6 @@
+DROP DATABASE IF EXISTS normalisationsql;
+CREATE DATABASE normalisationsql;
+
 \c normalisationsql;
 
 CREATE TABLE products

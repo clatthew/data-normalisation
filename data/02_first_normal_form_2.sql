@@ -1,5 +1,7 @@
-\c normalisationsql;
+DROP DATABASE IF EXISTS normalisationsql;
+CREATE DATABASE normalisationsql;
 
+\c normalisationsql;
 
 CREATE TABLE nc_mentors
 ( 
