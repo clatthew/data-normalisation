@@ -19,7 +19,7 @@ INSERT INTO nc_restaurant_staff_1NF
     (employee_no, full_name, job_title, employment, shift)
 VALUES
 ('NC0001', 'Gordon Ramsay', 'Head Chef', 'Full-time', 'All Day'),
-('NC0001', 'Gordon Ramsay', 'Head Chef', 'Full-time', 'All Day'),
+('NC0001', 'Gordon Ramsay', 'Owner', 'Full-time', 'All Day'),
 ('NC0002', 'Jamie Oliver', 'Waiter', 'Part-time', 'Evening'),
 ('NC0003', 'Rachael Ray', 'Chef', 'Full-time', 'All Day'),
 ('NC0004', 'Wolfgang Puck', 'Bartender', 'Full-time', 'All Day'),
