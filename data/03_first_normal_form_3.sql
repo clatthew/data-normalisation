@@ -1,3 +1,5 @@
+-- DO NOT CHANGE THIS CODE
+
 DROP DATABASE IF EXISTS normalisationsql;
 CREATE DATABASE normalisationsql;
 
@@ -25,3 +27,5 @@ VALUES
 
 
 SELECT * FROM food_orders;
+
+-- CREATE NEW TABLES HERE:

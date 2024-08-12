@@ -1,23 +1,25 @@
+-- DO NOT CHANGE THIS CODE
+
 DROP DATABASE IF EXISTS normalisationsql;
 CREATE DATABASE normalisationsql;
 
 \c normalisationsql;
 
-CREATE TABLE nc_students
+CREATE TABLE nc_students_2NF
 (
     student_id INT PRIMARY KEY,
     mentor VARCHAR,
     classroom VARCHAR
 );
 
-CREATE TABLE student_subjects
+CREATE TABLE student_subjects_2NF
 (
     student_id INT,
     subject VARCHAR,
-    FOREIGN KEY (student_id) REFERENCES nc_students(student_id)
+    FOREIGN KEY (student_id) REFERENCES nc_students_2NF(student_id)
 );
 
-INSERT INTO nc_students (student_id, mentor, classroom)
+INSERT INTO nc_students_2NF (student_id, mentor, classroom)
 VALUES
 ('10456', 'Rose', 'Zoom_12'),
 ('10839', 'Haz', 'Zoom_08'),
@@ -25,7 +27,7 @@ VALUES
 ('11525', 'Liam', 'Zoom_15'),
 ('12633', 'Haz', 'Zoom_08');
 
-INSERT INTO student_subjects (student_id, subject)
+INSERT INTO student_subjects_2NF (student_id, subject)
 VALUES
 ('10456','Maths'),
 ('10456','Science'),
@@ -42,5 +44,7 @@ VALUES
 ('12633', 'P.E.'),
 ('12633', 'I.T.');
 
-SELECT * FROM nc_students;
-SELECT * FROM student_subjects;
+SELECT * FROM nc_students_2NF;
+SELECT * FROM student_subjects_2NF;
+
+-- CREATE NEW TABLES HERE:

@@ -1,3 +1,5 @@
+-- DO NOT CHANGE THIS CODE
+
 DROP DATABASE IF EXISTS topmodelsql;
 CREATE DATABASE topmodelsql;
 

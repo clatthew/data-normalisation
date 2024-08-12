@@ -1,3 +1,5 @@
+-- DO NOT CHANGE THIS CODE
+
 DROP DATABASE IF EXISTS normalisationsql;
 CREATE DATABASE normalisationsql;
 
@@ -34,3 +36,5 @@ VALUES
 
 
 SELECT * FROM nc_restaurant_staff_1NF;
+
+-- CREATE NEW TABLES HERE:

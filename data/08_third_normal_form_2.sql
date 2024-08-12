@@ -1,9 +1,11 @@
+-- DO NOT CHANGE THIS CODE
+
 DROP DATABASE IF EXISTS normalisationsql;
 CREATE DATABASE normalisationsql;
 
 \c normalisationsql;
 
-CREATE TABLE nc_restaurant_employees
+CREATE TABLE nc_restaurant_employees_2NF
 ( 
     employee_no VARCHAR PRIMARY KEY,
     full_name VARCHAR,
@@ -12,7 +14,7 @@ CREATE TABLE nc_restaurant_employees
 );
 
 
-INSERT INTO nc_restaurant_employees
+INSERT INTO nc_restaurant_employees_2NF
     (employee_no, full_name, employment, shift)
 VALUES
 ('NC0001', 'Gordon Ramsay', 'Full-time', 'All Day'),
@@ -25,14 +27,14 @@ VALUES
 ('NC0008', 'David Chang', 'Part-time', 'Evening'),
 ('NC0009', 'Guy Fieri', 'Part-time', 'Evening');
 
-CREATE TABLE employee_jobs
+CREATE TABLE employee_jobs_2NF
 (
     employee_no VARCHAR,
     job_title VARCHAR,
-    FOREIGN KEY (employee_no) REFERENCES nc_restaurant_employees(employee_no)
+    FOREIGN KEY (employee_no) REFERENCES nc_restaurant_employees_2NF(employee_no)
 );
 
-INSERT INTO employee_jobs
+INSERT INTO employee_jobs_2NF
     (employee_no, job_title)
 VALUES
 ('NC0001', 'Head Chef'),
@@ -49,5 +51,7 @@ VALUES
 ('NC0008', 'Chef'),
 ('NC0009','Bartender');
 
-SELECT * FROM nc_restaurant_employees;
-SELECT * FROM employee_jobs;
+SELECT * FROM nc_restaurant_employees_2NF;
+SELECT * FROM employee_jobs_2NF;
+
+-- CREATE NEW TABLES HERE:
