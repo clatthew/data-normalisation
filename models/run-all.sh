@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
-for file in "./models"/*.sql; do
-    psql -f "${file}" > ${file%.sql}.txt
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
+
+for file in "$SCRIPT_DIR"/*.sql; do
+    psql -f "${file}" > "${file%.sql}.txt"
 done
