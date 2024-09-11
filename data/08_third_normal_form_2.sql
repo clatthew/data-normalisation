@@ -31,6 +31,7 @@ CREATE TABLE employee_jobs_2NF
 (
     employee_no VARCHAR,
     job_title VARCHAR,
+    PRIMARY KEY (employee_no, job_title),
     FOREIGN KEY (employee_no) REFERENCES nc_restaurant_employees_2NF(employee_no)
 );
 
