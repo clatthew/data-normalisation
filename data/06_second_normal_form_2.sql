@@ -11,8 +11,8 @@ CREATE TABLE nc_restaurant_staff_1NF
     full_name VARCHAR,
     job_title VARCHAR,
     employment VARCHAR,
-    shift VARCHAR
-
+    shift VARCHAR,
+    PRIMARY KEY (employee_no, job_title)
 );
 
 
