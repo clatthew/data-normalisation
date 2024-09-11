@@ -10,7 +10,8 @@ CREATE TABLE nc_classroom_1NF
     student_no INT,
     mentor VARCHAR,
     classroom VARCHAR,
-    subject VARCHAR
+    subject VARCHAR,
+    PRIMARY KEY (student_no, subject)
 );
 
 INSERT INTO nc_classroom_1NF
