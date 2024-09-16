@@ -16,6 +16,7 @@ CREATE TABLE student_subjects_2NF
 (
     student_id INT,
     subject VARCHAR,
+    PRIMARY KEY (student_id, subject),
     FOREIGN KEY (student_id) REFERENCES nc_students_2NF(student_id)
 );
 
