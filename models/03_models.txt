@@ -9,10 +9,17 @@ SELECT 214
 ALTER TABLE
 SELECT 214
 ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
 SELECT 35
 ALTER TABLE
 SELECT 228
 ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+
+Table: areas_3nf
     area     | area_id 
 -------------+---------
  Online      |       1
@@ -24,6 +31,8 @@ ALTER TABLE
  Athens      |       7
 (7 rows)
 
+
+Table: traits_3nf
                 trait                 | trait_id 
 --------------------------------------+----------
  Pro strutter                         |        1
@@ -85,6 +94,8 @@ ALTER TABLE
  Telepathic Puns                      |       57
 (57 rows)
 
+
+Table: categories_3nf
   category   | category_id 
 -------------+-------------
  Fitness     |           1
@@ -96,6 +107,8 @@ ALTER TABLE
  Fashion     |           7
 (7 rows)
 
+
+Table: events_3nf
        date        | revenue | model_id | event_id 
 -------------------+---------+----------+----------
  02 August 2022    | 5420.18 |       25 |        1
@@ -314,6 +327,8 @@ ALTER TABLE
  28 December 2024  |    8553 |       39 |      214
 (214 rows)
 
+
+Table: models_3nf
  model_id |      model_name      | area_id | price_per_event | category_id | trait_id 
 ----------+----------------------+---------+-----------------+-------------+----------
         1 | Bartholomew P        |       3 |          499.99 |           7 |        1
@@ -532,6 +547,8 @@ ALTER TABLE
       152 | Robinson Sapsforde   |       4 |          539.74 |           3 |       57
 (214 rows)
 
+
+Table: brands_3nf
     brand_name     | brand_id 
 -------------------+----------
  Amazon            |        1
@@ -571,6 +588,8 @@ ALTER TABLE
  Marks and Spencer |       35
 (35 rows)
 
+
+Table: brand_relationships_3nf
  model_id | brand_id 
 ----------+----------
       210 |       35

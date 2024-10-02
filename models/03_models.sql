@@ -57,7 +57,20 @@ JOIN traits_3nf
 ALTER TABLE models_3nf
 ADD PRIMARY KEY (model_id);
 
--- SELECT * FROM model_jobs_2nf;
+ALTER TABLE models_3nf
+ADD CONSTRAINT fk_areas_3nf
+    FOREIGN KEY (area_id)
+        REFERENCES areas_3nf(area_id) ON DELETE CASCADE;
+
+ALTER TABLE models_3nf
+ADD CONSTRAINT fk_categories_3nf
+    FOREIGN KEY (category_id)
+        REFERENCES categories_3nf(category_id) ON DELETE CASCADE;
+
+ALTER TABLE models_3nf
+ADD CONSTRAINT fk_traits_3nf
+    FOREIGN KEY (trait_id)
+        REFERENCES traits_3nf(trait_id) ON DELETE CASCADE;
 
 CREATE TABLE brands_3nf AS
 SELECT DISTINCT
@@ -78,12 +91,29 @@ JOIN brands_3nf
 ALTER TABLE brand_relationships_3nf
 ADD PRIMARY KEY (model_id, brand_id);
 
+ALTER TABLE brand_relationships_3nf
+ADD CONSTRAINT fk_models_3nf
+    FOREIGN KEY (model_id)
+        REFERENCES models(model_id) ON DELETE CASCADE;
+
+ALTER TABLE brand_relationships_3nf
+ADD CONSTRAINT fk_brands_3nf
+    FOREIGN KEY (brand_id)
+        REFERENCES brands_3nf(brand_id) ON DELETE CASCADE;
+
+\echo '\nTable: areas_3nf'
 SELECT * FROM areas_3nf;
+\echo '\nTable: traits_3nf'
 SELECT * FROM traits_3nf;
+\echo '\nTable: categories_3nf'
 SELECT * FROM categories_3nf;
+\echo '\nTable: events_3nf'
 SELECT * FROM events_3nf;
+\echo '\nTable: models_3nf'
 SELECT * FROM models_3nf;
+\echo '\nTable: brands_3nf'
 SELECT * FROM brands_3nf;
+\echo '\nTable: brand_relationships_3nf'
 SELECT * FROM brand_relationships_3nf;
 
 \d
