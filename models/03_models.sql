@@ -60,6 +60,7 @@ SELECT
     , model_name
     , agent_id
     , price_per_event
+    , rating
     , category_id
     , trait_id
 FROM models_2nf

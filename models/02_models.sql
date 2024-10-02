@@ -9,6 +9,7 @@ SELECT DISTINCT
     , category
     , agent
     , trait
+    , rating
     , next_event_date
     , revenue
 FROM models_1nf;
