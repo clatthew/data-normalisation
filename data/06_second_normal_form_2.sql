@@ -38,3 +38,24 @@ VALUES
 SELECT * FROM nc_restaurant_staff_1NF;
 
 -- CREATE NEW TABLES HERE:
+
+CREATE TABLE employees AS
+SELECT DISTINCT
+    employee_no
+    , full_name
+    , employment
+    , shift
+FROM nc_restaurant_staff_1NF;
+
+ALTER TABLE employees
+ADD PRIMARY KEY (employee_no);
+
+CREATE TABLE jobs AS
+SELECT employee_no, job_title
+FROM nc_restaurant_staff_1NF;
+
+ALTER TABLE jobs
+ADD PRIMARY KEY (employee_no, job_title);
+
+SELECT * FROM employees;
+SELECT * FROM jobs;

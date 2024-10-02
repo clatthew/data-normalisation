@@ -29,3 +29,16 @@ VALUES
 SELECT * FROM food_orders;
 
 -- CREATE NEW TABLES HERE:
+
+CREATE TABLE food_orders_1nf AS
+SELECT
+    customer_name
+    , UNNEST(STRING_TO_ARRAY(food_order, ', ')) AS order_item
+    , restaurant
+    , preference
+FROM food_orders;
+
+ALTER TABLE food_orders_1nf
+ADD order_line_id SERIAL PRIMARY KEY;
+
+SELECT * FROM food_orders_1nf;

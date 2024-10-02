@@ -56,3 +56,41 @@ SELECT * FROM nc_restaurant_employees_2NF;
 SELECT * FROM employee_jobs_2NF;
 
 -- CREATE NEW TABLES HERE:
+
+CREATE TABLE employment_types AS
+SELECT DISTINCT
+    employment
+    , shift
+FROM nc_restaurant_employees_2NF;
+
+ALTER TABLE employment_types
+ADD type_id SERIAL PRIMARY KEY;
+
+SELECT * FROM employment_types;
+
+SELECT * FROM employee_jobs_2NF;
+
+-- CREATE TABLE employee_employment AS
+-- SELECT
+--     employee_no
+--     , type_id AS employment_type_id
+-- FROM nc_restaurant_employees_2NF JOIN employment_types
+--     USING (employment, shift);
+
+-- ALTER TABLE employee_employment
+-- ADD PRIMARY KEY (employee_no);
+
+-- SELECT * FROM employee_employment;
+
+CREATE TABLE employees AS
+SELECT
+    employee_no
+    , full_name
+    , type_id AS employment_type_id
+FROM nc_restaurant_employees_2NF JOIN employment_types
+    USING (employment, shift);
+
+ALTER TABLE employees
+ADD PRIMARY KEY (employee_no);
+
+SELECT * FROM employees;

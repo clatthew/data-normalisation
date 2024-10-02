@@ -1,0 +1,31 @@
+DROP DATABASE
+CREATE DATABASE
+You are now connected to database "normalisationsql" as user "matthew".
+CREATE TABLE
+INSERT 0 6
+ employee_id | mentor_name |      department       |  location  
+-------------+-------------+-----------------------+------------
+           1 | Rose        | Software              | Manchester
+           2 | Eli         | Software, Data        | Manchester
+           3 | Haz         | Cloud, Data           | Manchester
+           4 | Jim         | Software              | Leeds
+           5 | John        | CLoud                 | Manchester
+           6 | Edd         | Data, Software, Cloud | Leeds
+(6 rows)
+
+SELECT 10
+ALTER TABLE
+ employee_id | mentor_name | department |  location  
+-------------+-------------+------------+------------
+           1 | Rose        | Software   | Manchester
+           2 | Eli         | Software   | Manchester
+           2 | Eli         | Data       | Manchester
+           3 | Haz         | Cloud      | Manchester
+           3 | Haz         | Data       | Manchester
+           4 | Jim         | Software   | Leeds
+           5 | John        | CLoud      | Manchester
+           6 | Edd         | Data       | Leeds
+           6 | Edd         | Software   | Leeds
+           6 | Edd         | Cloud      | Leeds
+(10 rows)
+

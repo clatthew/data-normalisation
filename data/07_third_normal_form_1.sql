@@ -49,3 +49,27 @@ SELECT * FROM nc_students_2NF;
 SELECT * FROM student_subjects_2NF;
 
 -- CREATE NEW TABLES HERE:
+
+CREATE TABLE mentors AS
+SELECT DISTINCT
+    mentor AS mentor_name
+    , classroom
+FROM
+    nc_students_2NF;
+
+ALTER TABLE mentors
+ADD PRIMARY KEY (mentor_name);
+
+CREATE TABLE student_mentors AS
+SELECT
+    student_id
+    , mentor AS mentor_name
+FROM
+    nc_students_2NF;
+
+ALTER TABLE student_mentors
+ADD PRIMARY KEY (student_id, mentor_name);
+
+SELECT * FROM mentors;
+SELECT * FROM student_mentors;
+SELECT * FROM student_subjects_2NF;

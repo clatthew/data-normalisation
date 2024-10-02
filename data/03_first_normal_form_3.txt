@@ -1,0 +1,39 @@
+DROP DATABASE
+CREATE DATABASE
+You are now connected to database "normalisationsql" as user "matthew".
+CREATE TABLE
+INSERT 0 6
+ customer_name |             food_order             | restaurant | preference 
+---------------+------------------------------------+------------+------------
+ Jack          | Cheeseburger, Fries, Tango         | McDonald's | Takeaway
+ Henry         | McNuggets, Fries, Coke, Apple Pie  | McDonald's | Dine-in
+ Jennifer      | Meatball Sub, Crisps, Oasis        | Subway     | Dine-in
+ Tim           | Wings, Sprite                      | KFC        | Takeaway
+ Hannah        | Steak & Cheese Sub, Cookie, Fanta  | Subway     | Takeaway
+ Steph         | Zinger Burger, Fries, Oreo Krushem | KFC        | Takeaway
+(6 rows)
+
+SELECT 18
+ALTER TABLE
+ customer_name |     order_item     | restaurant | preference | order_line_id 
+---------------+--------------------+------------+------------+---------------
+ Jack          | Cheeseburger       | McDonald's | Takeaway   |             1
+ Jack          | Fries              | McDonald's | Takeaway   |             2
+ Jack          | Tango              | McDonald's | Takeaway   |             3
+ Henry         | McNuggets          | McDonald's | Dine-in    |             4
+ Henry         | Fries              | McDonald's | Dine-in    |             5
+ Henry         | Coke               | McDonald's | Dine-in    |             6
+ Henry         | Apple Pie          | McDonald's | Dine-in    |             7
+ Jennifer      | Meatball Sub       | Subway     | Dine-in    |             8
+ Jennifer      | Crisps             | Subway     | Dine-in    |             9
+ Jennifer      | Oasis              | Subway     | Dine-in    |            10
+ Tim           | Wings              | KFC        | Takeaway   |            11
+ Tim           | Sprite             | KFC        | Takeaway   |            12
+ Hannah        | Steak & Cheese Sub | Subway     | Takeaway   |            13
+ Hannah        | Cookie             | Subway     | Takeaway   |            14
+ Hannah        | Fanta              | Subway     | Takeaway   |            15
+ Steph         | Zinger Burger      | KFC        | Takeaway   |            16
+ Steph         | Fries              | KFC        | Takeaway   |            17
+ Steph         | Oreo Krushem       | KFC        | Takeaway   |            18
+(18 rows)
+

@@ -28,3 +28,17 @@ VALUES
 SELECT * FROM nc_rentals;
 
 -- CREATE NEW TABLES HERE:
+
+CREATE TABLE nc_rentals_1nf AS
+SELECT
+    full_name
+    , title
+    , preferred_name
+    , "address"
+    , UNNEST(STRING_TO_ARRAY(movies_rented, ', ')) AS movie
+FROM nc_rentals;
+
+ALTER TABLE nc_rentals_1nf
+ADD PRIMARY KEY (full_name, movie);
+
+SELECT * FROM nc_rentals_1nf;

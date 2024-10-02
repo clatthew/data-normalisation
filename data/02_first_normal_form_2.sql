@@ -21,8 +21,21 @@ VALUES
     (3, 'Haz', 'Cloud, Data', 'Manchester'),
     (4, 'Jim', 'Software', 'Leeds'),
     (5, 'John', 'CLoud', 'Manchester'),
-    (6, 'Edd', 'Data, Software, CLoud', 'Leeds');
+    (6, 'Edd', 'Data, Software, Cloud', 'Leeds');
 
 SELECT * FROM nc_mentors;
 
 -- CREATE NEW TABLES HERE:
+
+CREATE TABLE nc_mentors_1nf AS
+SELECT
+    employee_id
+    , mentor_name
+    , UNNEST(STRING_TO_ARRAY(department, ', ')) AS department
+    , "location"
+FROM nc_mentors;
+
+ALTER TABLE nc_mentors_1nf
+ADD PRIMARY KEY (employee_id, department);
+
+SELECT * FROM nc_mentors_1nf;
