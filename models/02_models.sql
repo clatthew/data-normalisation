@@ -7,6 +7,7 @@ SELECT DISTINCT
     , area
     , price_per_event
     , category
+    , agent
     , trait
     , next_event_date
     , revenue

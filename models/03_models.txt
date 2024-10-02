@@ -7,7 +7,10 @@ SELECT 7
 ALTER TABLE
 SELECT 214
 ALTER TABLE
+SELECT 7
+ALTER TABLE
 SELECT 214
+ALTER TABLE
 ALTER TABLE
 ALTER TABLE
 ALTER TABLE
@@ -45,8 +48,8 @@ Table: traits_3nf
  Instantaneous Costume Changes        |        8
  Influencer                           |        9
  Invisible Air Guitar Playing         |       10
- Extreme Sarcasm Power                |       11
- Mildly Annoying Whistle              |       12
+ Mildly Annoying Whistle              |       11
+ Extreme Sarcasm Power                |       12
  Unbreakable Shoelaces                |       13
  Uncontrollable Tickling              |       14
  Invisible Sneeze                     |       15
@@ -55,8 +58,8 @@ Table: traits_3nf
  Messy eating                         |       18
  freckles on nose                     |       19
  Card magic                           |       20
- finding loose change                 |       21
- touch nose with tongue               |       22
+ touch nose with tongue               |       21
+ finding loose change                 |       22
  Infinite Hiccups                     |       23
  The dadbod drop                      |       24
  knowing when it's going to rain      |       25
@@ -111,440 +114,440 @@ Table: categories_3nf
 Table: events_3nf
        date        | revenue | model_id | event_id 
 -------------------+---------+----------+----------
- 02 August 2022    | 5420.18 |       25 |        1
- 08 March 2022     | 4842.59 |      207 |        2
- 01 February 2024  | 8887.56 |      210 |        3
- 24 January 2023   | 4455.07 |      147 |        4
- 08 June 2025      | 4715.83 |       91 |        5
- 19 February 2025  | 1623.87 |      199 |        6
- 13 January 2025   | 9272.94 |       31 |        7
- 12 April 2024     | 8417.73 |      180 |        8
- 23 April 2022     | 8980.86 |      103 |        9
- 09 March 2024     | 8900.56 |       18 |       10
- 27 February 2023  | 4573.82 |      185 |       11
- 18 April 2022     | 5177.48 |       14 |       12
- 17 July 2024      | 3188.04 |       79 |       13
- 27 December 2024  | 9933.17 |       74 |       14
- 12 July 2023      | 1474.44 |       60 |       15
- 17 August 2023    | 1266.66 |       35 |       16
- 05 February 2024  | 4923.63 |      200 |       17
- 14 March 2023     |  6474.5 |      195 |       18
- 14 April 2022     |  5422.5 |       77 |       19
- 29 November 2022  | 7476.02 |      178 |       20
- 07 April 2025     | 8480.52 |      104 |       21
- 06 September 2024 | 2925.11 |       93 |       22
- 05 July 2023      | 9075.43 |       97 |       23
- 14 March 2022     | 8407.88 |       42 |       24
- 14 May 2022       |    3600 |        6 |       25
- 22 January 2024   | 6097.88 |      137 |       26
- 11 March 2022     | 2910.15 |       43 |       27
- 23 October 2022   |    3458 |        5 |       28
- 23 March 2025     |  7227.5 |       36 |       29
- 15 June 2023      | 2201.35 |      154 |       30
- 16 July 2022      |    1050 |        9 |       31
- 16 August 2025    | 4162.02 |      124 |       32
- 09 September 2024 | 7178.51 |      205 |       33
- 1 March 2022      |    1625 |       11 |       34
- 01 April 2022     | 9210.76 |      138 |       35
- 01 September 2023 |  2414.3 |       65 |       36
- 06 March 2022     | 8613.84 |      145 |       37
- 20 September 2024 | 4259.19 |      182 |       38
- 10 May 2024       | 6096.36 |      128 |       39
- 30 October 2024   | 6397.33 |      100 |       40
- 23 March 2023     |  4964.9 |      112 |       41
- 22 September 2023 | 4829.27 |       96 |       42
- 20 October 2024   | 5348.84 |       51 |       43
- 20 March 2024     | 4036.88 |       58 |       44
- 28 November 2023  | 9757.66 |       78 |       45
- 15 September 2025 | 2827.29 |       46 |       46
- 02 June 2022      | 5694.69 |       34 |       47
- 07 May 2022       | 2530.35 |       15 |       48
- 12 September 2022 |    1500 |        7 |       49
- 10 November 2025  | 1006.37 |      211 |       50
- 26 May 2024       | 7510.91 |       45 |       51
- 30 March 2023     | 3144.76 |      196 |       52
- 03 March 2022     | 2123.16 |      175 |       53
- 24 September 2022 | 9885.37 |      117 |       54
- 15 February 2022  | 8266.27 |       38 |       55
- 26 October 2024   | 8119.76 |      208 |       56
- 19 October 2023   | 7242.38 |       32 |       57
- 07 August 2022    | 8934.36 |      107 |       58
- 18 January 2022   | 3370.55 |       69 |       59
- 14 December 2025  | 1411.17 |      143 |       60
- 10 September 2024 | 1848.03 |      193 |       61
- 30 March 2025     | 5402.89 |       70 |       62
- 20 January 2022   | 9899.89 |        8 |       63
- 23 May 2023       | 3035.88 |      188 |       64
- 23 December 2022  | 1086.75 |      169 |       65
- 05 March 2022     | 8589.33 |      209 |       66
- 09 April 2025     | 2174.42 |       73 |       67
- 28 May 2024       | 5921.78 |       24 |       68
- 22 April 2023     | 8389.94 |       88 |       69
- 23 August 2022    | 7214.85 |       10 |       70
- 05 September 2025 | 3657.26 |      213 |       71
- 13 June 2025      | 5597.08 |       59 |       72
- 25 August 2023    | 7535.87 |      190 |       73
- 30 July 2022      | 7292.63 |      127 |       74
- 18 October 2022   | 8509.09 |      120 |       75
- 10 August 2024    | 2418.04 |      150 |       76
- 14 February 2022  |    5109 |       41 |       77
- 07 August 2023    | 7216.39 |      160 |       78
- 10 April 2023     | 3280.61 |      174 |       79
- 25 January 2022   |  5136.9 |      170 |       80
- 22 February 2023  | 3228.12 |      166 |       81
- 06 October 2024   | 5309.95 |      130 |       82
- 14 May 2025       |  3232.8 |       82 |       83
- 20 December 2024  | 3022.28 |      157 |       84
- 15 September 2022 | 5845.68 |      141 |       85
- 07 October 2023   | 5251.42 |      194 |       86
- 31 August 2025    | 1905.51 |      155 |       87
- 08 October 2022   | 6013.96 |      186 |       88
- 29 September 2022 | 1263.75 |       53 |       89
- 22 November 2025  |  4189.8 |      116 |       90
- 21 January 2024   | 5151.73 |      163 |       91
- 15 January 2024   | 3398.12 |       67 |       92
- 03 May 2025       | 8759.93 |      191 |       93
- 05 May 2022       | 4115.49 |      144 |       94
- 03 February 2023  | 1133.78 |      123 |       95
- 07 October 2024   | 4119.01 |      156 |       96
- 17 December 2024  |  5615.6 |      152 |       97
- 20 January 2024   | 2460.48 |      121 |       98
- 06 January 2022   | 5813.02 |       80 |       99
- 26 October 2023   | 1436.69 |      164 |      100
- 22 August 2022    | 3224.95 |      140 |      101
- 05 September 2023 |  3356.7 |       94 |      102
- 29 October 2022   | 3700.51 |      110 |      103
- 20 April 2025     | 8437.51 |       76 |      104
- 08 November 2025  | 4296.85 |      197 |      105
- 14 August 2024    | 6640.76 |       33 |      106
- 11 April 2023     | 3763.64 |       49 |      107
- 26 July 2025      | 5466.73 |       84 |      108
- 12 September 2022 |     950 |       13 |      109
- 03 May 2022       | 9878.76 |      158 |      110
- 24 September 2024 | 3258.72 |      167 |      111
- 30 August 2025    |  5511.4 |      206 |      112
- 07 July 2025      |  1706.8 |       89 |      113
- 20 June 2023      | 6523.19 |      149 |      114
- 03 December 2024  | 3793.78 |      161 |      115
- 07 June 2024      |    2945 |      108 |      116
- 04 June 2022      | 9433.66 |       86 |      117
- 21 February 2023  | 6153.47 |       55 |      118
- 11 April 2024     | 8164.88 |       26 |      119
- 27 July 2025      | 9671.18 |       99 |      120
- 15 March 2023     |  7092.3 |       98 |      121
- 04 March 2024     | 9410.09 |       47 |      122
- 23 August 2025    |  8027.5 |      105 |      123
- 26 February 2025  |  8640.6 |       29 |      124
- 8 January 2022    |    1530 |        3 |      125
- 04 July 2024      | 4732.05 |      153 |      126
- 15 November 2022  | 2999.94 |        1 |      127
- 29 January 2022   | 8979.97 |      134 |      128
- 07 September 2022 | 6381.88 |       64 |      129
- 07 March 2022     | 1800.06 |      165 |      130
- 11 May 2023       | 1704.39 |      159 |      131
- 09 January 2025   | 7511.87 |       85 |      132
- 25 September 2022 | 5981.72 |       16 |      133
- 10 December 2025  | 8796.78 |      198 |      134
- 16 December 2022  | 6305.37 |      173 |      135
- 24 February 2025  | 1849.79 |      214 |      136
- 25 December 2025  | 2010.34 |       44 |      137
- 22 February 2023  | 9135.05 |      168 |      138
- 01 January 2025   | 2085.11 |      106 |      139
- 10 July 2023      | 9449.54 |      183 |      140
- 31 October 2024   | 8659.08 |      204 |      141
- 10 March 2022     | 3097.55 |      151 |      142
- 02 May 2024       | 4855.92 |       75 |      143
- 23 December 2023  | 1265.33 |      176 |      144
- 21 July 2025      | 6299.99 |      146 |      145
- 18 March 2024     | 5611.36 |      125 |      146
- 30 August 2022    | 7029.15 |       20 |      147
- 05 February 2022  | 3307.84 |      139 |      148
- 6 March 2022      | 1846.74 |        4 |      149
- 29 April 2022     | 9696.84 |      148 |      150
- 28 February 2022  | 6430.45 |      142 |      151
- 27 January 2023   | 8403.66 |       62 |      152
- 17 September 2024 | 3841.03 |      131 |      153
- 25 April 2025     | 9967.48 |      111 |      154
- 10 April 2023     | 7200.32 |       81 |      155
- 02 August 2025    | 2907.12 |       83 |      156
- 30 August 2025    | 7675.17 |      179 |      157
- 27 June 2022      | 6101.96 |       87 |      158
- 09 March 2022     | 6664.83 |       21 |      159
- 06 February 2022  | 6632.68 |      122 |      160
- 21 January 2022   | 2375.73 |       50 |      161
- 04 October 2022   |  5207.4 |       68 |      162
- 27 August 2023    | 9677.18 |      181 |      163
- 04 September 2025 | 9410.86 |      118 |      164
- 18 June 2024      | 8226.02 |      189 |      165
- 21 October 2024   | 9427.66 |       72 |      166
- 30 June 2025      | 3676.74 |       23 |      167
- 04 February 2024  | 6448.92 |       56 |      168
- 22 June 2024      | 7406.08 |       40 |      169
- 02 October 2023   | 7123.58 |       30 |      170
- 29 April 2023     | 7228.36 |      114 |      171
- 23 December 2025  | 7281.33 |      177 |      172
- 30 March 2025     |  4860.3 |       66 |      173
- 18 April 2023     | 1427.38 |      135 |      174
- 31 October 2024   | 9483.61 |      119 |      175
- 08 February 2022  | 9538.42 |      102 |      176
- 25 April 2022     | 7012.22 |       17 |      177
- 14 May 2022       |     480 |       12 |      178
- 18 March 2024     |  5413.6 |      202 |      179
- 25 June 2023      | 7338.05 |       22 |      180
- 12 September 2022 |  149.85 |        2 |      181
- 07 July 2023      | 7661.66 |      129 |      182
- 05 May 2023       |  3115.1 |      203 |      183
- 15 June 2025      | 8471.67 |      162 |      184
- 28 May 2023       | 9076.46 |      192 |      185
- 03 November 2023  |  5868.6 |      172 |      186
- 10 October 2022   | 8915.73 |       19 |      187
- 11 May 2024       |  1126.5 |      109 |      188
- 08 June 2022      | 5558.62 |       57 |      189
- 27 October 2025   | 7542.99 |      187 |      190
- 08 April 2025     | 2261.26 |       48 |      191
- 30 May 2025       | 4824.29 |      113 |      192
- 26 March 2022     | 9305.22 |      101 |      193
- 17 August 2024    | 4065.64 |      136 |      194
- 01 September 2024 | 4670.84 |       92 |      195
- 11 September 2024 | 9968.41 |       71 |      196
- 26 November 2023  | 1456.66 |      133 |      197
- 03 November 2023  |  9123.7 |       37 |      198
- 11 March 2023     |  4491.6 |       54 |      199
- 11 April 2024     | 3103.04 |       27 |      200
- 14 October 2022   | 9915.01 |       52 |      201
- 20 June 2023      | 1487.82 |      201 |      202
- 12 May 2022       | 1053.43 |      132 |      203
- 26 December 2023  | 8178.69 |       95 |      204
- 21 February 2022  | 6168.83 |       28 |      205
- 26 August 2025    | 3327.48 |      115 |      206
- 23 May 2023       |  9167.1 |       90 |      207
- 04 September 2022 | 9035.74 |       61 |      208
- 24 November 2025  | 8575.22 |      212 |      209
- 20 April 2022     |  9400.5 |      171 |      210
- 30 January 2022   | 8584.72 |      184 |      211
- 10 November 2022  | 2958.87 |      126 |      212
- 09 August 2022    | 5589.56 |       63 |      213
- 28 December 2024  |    8553 |       39 |      214
+ 12 May 2022       | 1053.43 |      132 |        1
+ 26 February 2025  |  8640.6 |       29 |        2
+ 15 February 2022  | 8266.27 |       38 |        3
+ 17 September 2024 | 3841.03 |      131 |        4
+ 15 January 2024   | 3398.12 |       67 |        5
+ 25 June 2023      | 7338.05 |       22 |        6
+ 29 October 2022   | 3700.51 |      110 |        7
+ 22 April 2023     | 8389.94 |       88 |        8
+ 20 April 2025     | 8437.51 |       76 |        9
+ 06 October 2024   | 5309.95 |      130 |       10
+ 01 September 2023 |  2414.3 |       65 |       11
+ 09 April 2025     | 2174.42 |       73 |       12
+ 12 September 2022 |     950 |       13 |       13
+ 07 September 2022 | 6381.88 |       64 |       14
+ 22 June 2024      | 7406.08 |       40 |       15
+ 01 April 2022     | 9210.76 |      138 |       16
+ 26 November 2023  | 1456.66 |      133 |       17
+ 15 March 2023     |  7092.3 |       98 |       18
+ 26 July 2025      | 5466.73 |       84 |       19
+ 30 March 2025     | 5402.89 |       70 |       20
+ 05 March 2022     | 8589.33 |      209 |       21
+ 23 October 2022   |    3458 |        5 |       22
+ 11 April 2024     | 3103.04 |       27 |       23
+ 14 August 2024    | 6640.76 |       33 |       24
+ 06 February 2022  | 6632.68 |      122 |       25
+ 09 August 2022    | 5589.56 |       63 |       26
+ 20 October 2024   | 5348.84 |       51 |       27
+ 23 May 2023       |  9167.1 |       90 |       28
+ 1 March 2022      |    1625 |       11 |       29
+ 22 August 2022    | 3224.95 |      140 |       30
+ 17 August 2024    | 4065.64 |      136 |       31
+ 28 December 2024  |    8553 |       39 |       32
+ 02 October 2023   | 7123.58 |       30 |       33
+ 8 January 2022    |    1530 |        3 |       34
+ 24 September 2022 | 9885.37 |      117 |       35
+ 29 September 2022 | 1263.75 |       53 |       36
+ 20 June 2023      | 6523.19 |      149 |       37
+ 05 February 2024  | 4923.63 |      200 |       38
+ 27 December 2024  | 9933.17 |       74 |       39
+ 25 April 2022     | 7012.22 |       17 |       40
+ 10 December 2025  | 8796.78 |      198 |       41
+ 03 May 2025       | 8759.93 |      191 |       42
+ 27 February 2023  | 4573.82 |      185 |       43
+ 04 March 2024     | 9410.09 |       47 |       44
+ 11 April 2024     | 8164.88 |       26 |       45
+ 22 February 2023  | 3228.12 |      166 |       46
+ 10 September 2024 | 1848.03 |      193 |       47
+ 04 September 2022 | 9035.74 |       61 |       48
+ 30 May 2025       | 4824.29 |      113 |       49
+ 16 December 2022  | 6305.37 |      173 |       50
+ 10 November 2022  | 2958.87 |      126 |       51
+ 24 September 2024 | 3258.72 |      167 |       52
+ 10 May 2024       | 6096.36 |      128 |       53
+ 05 July 2023      | 9075.43 |       97 |       54
+ 20 January 2024   | 2460.48 |      121 |       55
+ 07 July 2023      | 7661.66 |      129 |       56
+ 29 April 2023     | 7228.36 |      114 |       57
+ 30 March 2025     |  4860.3 |       66 |       58
+ 13 January 2025   | 9272.94 |       31 |       59
+ 04 September 2025 | 9410.86 |      118 |       60
+ 03 March 2022     | 2123.16 |      175 |       61
+ 07 August 2023    | 7216.39 |      160 |       62
+ 18 April 2023     | 1427.38 |      135 |       63
+ 25 April 2025     | 9967.48 |      111 |       64
+ 14 October 2022   | 9915.01 |       52 |       65
+ 08 November 2025  | 4296.85 |      197 |       66
+ 28 May 2024       | 5921.78 |       24 |       67
+ 25 September 2022 | 5981.72 |       16 |       68
+ 26 December 2023  | 8178.69 |       95 |       69
+ 08 June 2025      | 4715.83 |       91 |       70
+ 11 September 2024 | 9968.41 |       71 |       71
+ 20 March 2024     | 4036.88 |       58 |       72
+ 27 August 2023    | 9677.18 |      181 |       73
+ 20 September 2024 | 4259.19 |      182 |       74
+ 29 April 2022     | 9696.84 |      148 |       75
+ 28 February 2022  | 6430.45 |      142 |       76
+ 26 May 2024       | 7510.91 |       45 |       77
+ 14 May 2022       |    3600 |        6 |       78
+ 20 June 2023      | 1487.82 |      201 |       79
+ 24 February 2025  | 1849.79 |      214 |       80
+ 05 May 2022       | 4115.49 |      144 |       81
+ 22 September 2023 | 4829.27 |       96 |       82
+ 03 November 2023  |  9123.7 |       37 |       83
+ 20 January 2022   | 9899.89 |        8 |       84
+ 30 October 2024   | 6397.33 |      100 |       85
+ 09 January 2025   | 7511.87 |       85 |       86
+ 17 July 2024      | 3188.04 |       79 |       87
+ 21 July 2025      | 6299.99 |      146 |       88
+ 26 October 2023   | 1436.69 |      164 |       89
+ 01 September 2024 | 4670.84 |       92 |       90
+ 10 July 2023      | 9449.54 |      183 |       91
+ 02 August 2022    | 5420.18 |       25 |       92
+ 12 April 2024     | 8417.73 |      180 |       93
+ 06 March 2022     | 8613.84 |      145 |       94
+ 15 June 2023      | 2201.35 |      154 |       95
+ 01 February 2024  | 8887.56 |      210 |       96
+ 09 September 2024 | 7178.51 |      205 |       97
+ 05 September 2025 | 3657.26 |      213 |       98
+ 22 February 2023  | 9135.05 |      168 |       99
+ 10 April 2023     | 3280.61 |      174 |      100
+ 14 December 2025  | 1411.17 |      143 |      101
+ 15 September 2022 | 5845.68 |      141 |      102
+ 07 August 2022    | 8934.36 |      107 |      103
+ 15 September 2025 | 2827.29 |       46 |      104
+ 02 August 2025    | 2907.12 |       83 |      105
+ 03 May 2022       | 9878.76 |      158 |      106
+ 18 January 2022   | 3370.55 |       69 |      107
+ 23 May 2023       | 3035.88 |      188 |      108
+ 14 February 2022  |    5109 |       41 |      109
+ 05 February 2022  | 3307.84 |      139 |      110
+ 22 November 2025  |  4189.8 |      116 |      111
+ 15 June 2025      | 8471.67 |      162 |      112
+ 11 May 2023       | 1704.39 |      159 |      113
+ 21 February 2022  | 6168.83 |       28 |      114
+ 05 May 2023       |  3115.1 |      203 |      115
+ 03 December 2024  | 3793.78 |      161 |      116
+ 17 December 2024  |  5615.6 |      152 |      117
+ 12 September 2022 |    1500 |        7 |      118
+ 04 October 2022   |  5207.4 |       68 |      119
+ 27 June 2022      | 6101.96 |       87 |      120
+ 21 October 2024   | 9427.66 |       72 |      121
+ 04 February 2024  | 6448.92 |       56 |      122
+ 24 January 2023   | 4455.07 |      147 |      123
+ 31 October 2024   | 8659.08 |      204 |      124
+ 23 December 2025  | 7281.33 |      177 |      125
+ 31 August 2025    | 1905.51 |      155 |      126
+ 27 July 2025      | 9671.18 |       99 |      127
+ 04 July 2024      | 4732.05 |      153 |      128
+ 21 January 2022   | 2375.73 |       50 |      129
+ 09 March 2022     | 6664.83 |       21 |      130
+ 17 August 2023    | 1266.66 |       35 |      131
+ 26 October 2024   | 8119.76 |      208 |      132
+ 30 March 2023     | 3144.76 |      196 |      133
+ 14 March 2023     |  6474.5 |      195 |      134
+ 11 April 2023     | 3763.64 |       49 |      135
+ 23 March 2025     |  7227.5 |       36 |      136
+ 16 July 2022      |    1050 |        9 |      137
+ 07 April 2025     | 8480.52 |      104 |      138
+ 07 March 2022     | 1800.06 |      165 |      139
+ 18 October 2022   | 8509.09 |      120 |      140
+ 30 August 2025    | 7675.17 |      179 |      141
+ 20 April 2022     |  9400.5 |      171 |      142
+ 15 November 2022  | 2999.94 |        1 |      143
+ 07 October 2024   | 4119.01 |      156 |      144
+ 26 March 2022     | 9305.22 |      101 |      145
+ 29 November 2022  | 7476.02 |      178 |      146
+ 10 November 2025  | 1006.37 |      211 |      147
+ 16 August 2025    | 4162.02 |      124 |      148
+ 20 December 2024  | 3022.28 |      157 |      149
+ 09 March 2024     | 8900.56 |       18 |      150
+ 18 March 2024     | 5611.36 |      125 |      151
+ 21 February 2023  | 6153.47 |       55 |      152
+ 03 November 2023  |  5868.6 |      172 |      153
+ 23 March 2023     |  4964.9 |      112 |      154
+ 14 April 2022     |  5422.5 |       77 |      155
+ 11 May 2024       |  1126.5 |      109 |      156
+ 12 July 2023      | 1474.44 |       60 |      157
+ 30 August 2025    |  5511.4 |      206 |      158
+ 21 January 2024   | 5151.73 |      163 |      159
+ 30 August 2022    | 7029.15 |       20 |      160
+ 30 January 2022   | 8584.72 |      184 |      161
+ 18 April 2022     | 5177.48 |       14 |      162
+ 10 August 2024    | 2418.04 |      150 |      163
+ 06 January 2022   | 5813.02 |       80 |      164
+ 28 November 2023  | 9757.66 |       78 |      165
+ 30 June 2025      | 3676.74 |       23 |      166
+ 04 June 2022      | 9433.66 |       86 |      167
+ 29 January 2022   | 8979.97 |      134 |      168
+ 26 August 2025    | 3327.48 |      115 |      169
+ 14 March 2022     | 8407.88 |       42 |      170
+ 07 July 2025      |  1706.8 |       89 |      171
+ 02 June 2022      | 5694.69 |       34 |      172
+ 08 June 2022      | 5558.62 |       57 |      173
+ 18 June 2024      | 8226.02 |      189 |      174
+ 13 June 2025      | 5597.08 |       59 |      175
+ 18 March 2024     |  5413.6 |      202 |      176
+ 12 September 2022 |  149.85 |        2 |      177
+ 23 December 2023  | 1265.33 |      176 |      178
+ 27 January 2023   | 8403.66 |       62 |      179
+ 08 March 2022     | 4842.59 |      207 |      180
+ 08 April 2025     | 2261.26 |       48 |      181
+ 03 February 2023  | 1133.78 |      123 |      182
+ 23 August 2025    |  8027.5 |      105 |      183
+ 23 April 2022     | 8980.86 |      103 |      184
+ 10 April 2023     | 7200.32 |       81 |      185
+ 31 October 2024   | 9483.61 |      119 |      186
+ 25 January 2022   |  5136.9 |      170 |      187
+ 10 March 2022     | 3097.55 |      151 |      188
+ 07 June 2024      |    2945 |      108 |      189
+ 25 August 2023    | 7535.87 |      190 |      190
+ 02 May 2024       | 4855.92 |       75 |      191
+ 08 October 2022   | 6013.96 |      186 |      192
+ 6 March 2022      | 1846.74 |        4 |      193
+ 30 July 2022      | 7292.63 |      127 |      194
+ 10 October 2022   | 8915.73 |       19 |      195
+ 05 September 2023 |  3356.7 |       94 |      196
+ 25 December 2025  | 2010.34 |       44 |      197
+ 07 May 2022       | 2530.35 |       15 |      198
+ 01 January 2025   | 2085.11 |      106 |      199
+ 08 February 2022  | 9538.42 |      102 |      200
+ 11 March 2023     |  4491.6 |       54 |      201
+ 06 September 2024 | 2925.11 |       93 |      202
+ 24 November 2025  | 8575.22 |      212 |      203
+ 28 May 2023       | 9076.46 |      192 |      204
+ 11 March 2022     | 2910.15 |       43 |      205
+ 27 October 2025   | 7542.99 |      187 |      206
+ 22 January 2024   | 6097.88 |      137 |      207
+ 07 October 2023   | 5251.42 |      194 |      208
+ 23 December 2022  | 1086.75 |      169 |      209
+ 14 May 2025       |  3232.8 |       82 |      210
+ 14 May 2022       |     480 |       12 |      211
+ 19 February 2025  | 1623.87 |      199 |      212
+ 19 October 2023   | 7242.38 |       32 |      213
+ 23 August 2022    | 7214.85 |       10 |      214
 (214 rows)
 
 
 Table: models_3nf
- model_id |      model_name      | area_id | price_per_event | category_id | trait_id 
-----------+----------------------+---------+-----------------+-------------+----------
-        1 | Bartholomew P        |       3 |          499.99 |           7 |        1
-       16 | Kasper Topling       |       6 |          905.77 |           7 |        2
-       99 | Rayshell Beresfore   |       6 |          376.86 |           6 |        2
-      107 | Delilah Ducker       |       2 |           45.43 |           3 |        2
-      109 | Millard Longhorn     |       5 |          510.92 |           1 |        3
-      139 | Clemens Gaythorpe    |       6 |          393.83 |           5 |        3
-      198 | Lyndsay Schirak      |       4 |          600.23 |           3 |        3
-      160 | Kenny Petrelluzzi    |       1 |          853.31 |           1 |        3
-       97 | Ajay Giametti        |       3 |          126.19 |           7 |        3
-       93 | Margareta Hooks      |       7 |          265.88 |           4 |        3
-      180 | Nancey Moores        |       6 |           87.32 |           6 |        3
-       87 | Kissie Jandel        |       4 |          370.34 |           6 |        4
-       44 | Zandra Siggs         |       4 |          274.27 |           6 |        4
-       89 | Orin Smuth           |       2 |          138.11 |           3 |        4
-      166 | Even Fayerbrother    |       1 |          382.68 |           6 |        4
-        9 | Salle De Bain        |       4 |             150 |           5 |        5
-       55 | Barbabas Biles       |       7 |          694.95 |           1 |        6
-      208 | Jarrod Lorriman      |       4 |          826.13 |           6 |        6
-       86 | Marji Semorad        |       2 |          335.98 |           2 |        7
-      110 | Bayard Camilleri     |       3 |          540.52 |           2 |        7
-       51 | Gregoor Pearne       |       7 |          745.96 |           4 |        7
-       35 | Raimondo Causby      |       5 |          860.55 |           1 |        7
-       92 | Dona Whittleton      |       3 |          729.24 |           7 |        8
-      214 | Lowrance Brattell    |       3 |          588.22 |           2 |        8
-       94 | Livvy Brattan        |       5 |          732.49 |           2 |        8
-      207 | Fabe Naden           |       5 |          349.34 |           6 |        8
-        5 | Sarah B              |       1 |          432.25 |           1 |        9
-      135 | Anatole Fearnyhough  |       6 |          123.27 |           4 |       10
-      197 | Corette Forgan       |       7 |           288.4 |           2 |       10
-      175 | Evangelia Cristea    |       5 |          289.02 |           1 |       10
-      116 | Ingemar Gaul         |       1 |          688.47 |           3 |       11
-       79 | Haslett McTrustey    |       1 |          961.98 |           2 |       11
-       72 | Keven Tanby          |       3 |          535.66 |           7 |       12
-      183 | Dredi Wharby         |       6 |          719.06 |           6 |       12
-      141 | Tildi Grigoryov      |       2 |          285.38 |           4 |       12
-      103 | Violette Tombleson   |       3 |          936.06 |           7 |       12
-      123 | Toni Drei            |       3 |          194.82 |           6 |       13
-      155 | Brandice Lamberton   |       7 |          712.52 |           4 |       13
-      159 | Morlee Thomtson      |       4 |          927.93 |           5 |       14
-      165 | La verne Scroxton    |       7 |          917.21 |           2 |       14
-       64 | Hagan Romanini       |       2 |          965.73 |           3 |       14
-      186 | Melissa Albers       |       5 |          799.12 |           1 |       14
-      211 | Joanna Cogdon        |       5 |          568.89 |           1 |       14
-      171 | Tomkin Soan          |       5 |          324.56 |           7 |       15
-      129 | Lenard Lumm          |       1 |          114.18 |           7 |       15
-      189 | Ernestus Dyer        |       5 |           43.58 |           2 |       15
-      111 | Jacky Ibbeson        |       7 |          789.08 |           4 |       15
-      108 | Regen Aldrin         |       4 |          440.61 |           7 |       15
-       53 | Eugenia McCraine     |       1 |          449.59 |           2 |       15
-       88 | Halimeda Cordeix     |       6 |          313.71 |           6 |       15
-      143 | Donna Spofford       |       7 |          138.01 |           7 |       15
-       34 | Selene Fowle         |       3 |          897.98 |           7 |       15
-       95 | Skyler Arend         |       2 |          325.12 |           1 |       16
-      190 | Raquela Kalkhoven    |       2 |          985.08 |           1 |       16
-       70 | Dniren Sulley        |       3 |          678.53 |           2 |       16
-      100 | Whitman Neads        |       5 |          804.73 |           1 |       16
-      133 | Sheela Illsley       |       5 |          759.93 |           1 |       17
-      119 | Janella Clearie      |       3 |          648.68 |           7 |       17
-       85 | Pryce Tolotti        |       3 |          109.59 |           7 |       17
-       47 | Melisandra Achurch   |       4 |           20.99 |           7 |       17
-      194 | Patrice Ferrier      |       1 |           495.4 |           1 |       17
-       60 | Bendick Douglass     |       6 |          945.58 |           2 |       17
-       13 | Raul Pogerson        |       4 |              50 |           5 |       18
-      126 | Devan Henrie         |       2 |          970.13 |           6 |       19
-       66 | Jobyna Denisevich    |       6 |          462.76 |           7 |       19
-      131 | Lona Firks           |       2 |          898.42 |           3 |       19
-      206 | Kiley Hafner         |       4 |          914.95 |           7 |       19
-       80 | Holly Thwaites       |       1 |          257.56 |           7 |       19
-      121 | Anna diane Blondin   |       4 |          502.86 |           1 |       19
-      137 | Ber Cawkwell         |       4 |          760.11 |           2 |       19
-       14 | Ray Z                |       6 |          470.68 |           6 |       20
-       28 | Alejandrina Bambrugh |       7 |          577.21 |           4 |       21
-       71 | Shanon Bodman        |       6 |          596.48 |           6 |       21
-      114 | Drugi St. Leger      |       7 |          639.33 |           4 |       21
-       40 | Toinette Machon      |       1 |          953.21 |           2 |       21
-      191 | Bili Wilkins         |       3 |          335.24 |           7 |       21
-       67 | Nels Jaumet          |       5 |          921.94 |           1 |       21
-      128 | Hale Fairburn        |       3 |            84.4 |           7 |       21
-      115 | Cyb Pryn             |       5 |          128.81 |           7 |       22
-      161 | Veronica Guidoni     |       2 |          276.57 |           7 |       22
-      196 | Adriano Carrick      |       4 |          935.35 |           2 |       22
-      205 | Patrice Philippson   |       2 |          590.69 |           2 |       22
-       50 | Leodora Trembath     |       7 |           82.59 |           1 |       23
-       83 | Corbie Jillings      |       4 |          459.55 |           1 |       23
-      164 | Vince Dendon         |       2 |           353.1 |           7 |       23
-        2 | Notso Neat           |       1 |            9.99 |           2 |       24
-      212 | Jemmie Cannop        |       3 |           13.34 |           7 |       25
-      112 | Jared Slimming       |       6 |          817.63 |           6 |       25
-        7 | Starr Schema         |       2 |             250 |           3 |       26
-      187 | Anatol Culligan      |       3 |          606.07 |           7 |       27
-       22 | Bess Wildman         |       5 |          105.66 |           2 |       27
-      144 | Nanny Camerana       |       5 |          717.28 |           5 |       27
-      145 | Melina Heilds        |       1 |          280.63 |           2 |       27
-       43 | Scot Connow          |       4 |          143.37 |           5 |       27
-       63 | Yetty Wildblood      |       1 |          261.59 |           2 |       28
-       37 | Sergio Haversum      |       1 |          773.96 |           2 |       28
-      106 | Colin Palatini       |       4 |          877.37 |           6 |       28
-      105 | Jamey Golley         |       2 |          867.13 |           1 |       28
-       41 | Carrie Gerling       |       7 |          358.29 |           4 |       28
-       96 | Jeni Michel          |       6 |          613.03 |           4 |       28
-       65 | Coletta Jonson       |       4 |          267.08 |           7 |       28
-        3 | Jarred MacKenzie     |       5 |             170 |           1 |       29
-        6 | Cat Wang             |       3 |             600 |           7 |       30
-      201 | Shannon Dougharty    |       1 |           65.94 |           2 |       31
-       81 | Georgie Sweetman     |       3 |          282.08 |           3 |       31
-      125 | Karil Jerwood        |       4 |          345.32 |           2 |       31
-       75 | Janey Fluin          |       3 |          263.88 |           1 |       31
-      120 | Kyle Bester          |       3 |          180.42 |           7 |       31
-       78 | Delinda Raubenheim   |       3 |          750.85 |           3 |       31
-       58 | Lesly Mallinar       |       7 |           833.1 |           4 |       31
-      178 | Eveline De Paoli     |       4 |           13.81 |           7 |       31
-       18 | Gerrard Scorthorne   |       7 |          377.39 |           4 |       31
-      149 | Shepard Rawcliffe    |       7 |          819.18 |           4 |       32
-       33 | Amie Pepler          |       5 |          823.67 |           1 |       32
-      169 | Codie Warters        |       7 |           23.24 |           3 |       32
-      147 | Giacopo Cubley       |       3 |          585.04 |           7 |       32
-      168 | Ker Kidman           |       5 |          168.78 |           1 |       33
-      117 | Millard Scurrer      |       5 |           836.9 |           1 |       33
-       36 | Gilberta Leavey      |       5 |          150.69 |           7 |       33
-       31 | Jean Laval           |       4 |          684.13 |           7 |       33
-        8 | Sam Pagne            |       7 |          899.99 |           4 |       34
-      136 | Carey Stennes        |       5 |          960.39 |           7 |       35
-       17 | Ulrika MacGarvey     |       4 |          142.15 |           6 |       35
-      213 | Deane Blinkhorn      |       7 |          647.59 |           7 |       35
-      138 | Bettina Brahmer      |       3 |          247.11 |           7 |       35
-      200 | Constantin Hagard    |       4 |          374.58 |           3 |       35
-       23 | Miles Newgrosh       |       2 |          968.73 |           7 |       36
-      146 | Monti Titlow         |       2 |          643.41 |           4 |       36
-      176 | Tyrone Beckmann      |       7 |          900.35 |           4 |       36
-      130 | Celka Paladino       |       6 |          288.15 |           6 |       36
-      188 | Merlina Beamson      |       5 |          434.15 |           1 |       36
-       69 | Roderick Piotrkowski |       2 |          677.03 |           1 |       36
-      132 | Bank Hurl            |       4 |           15.53 |           3 |       37
-      104 | Jozef Esler          |       4 |           563.6 |           6 |       37
-       27 | Wolfgang Oxshott     |       2 |          346.91 |           3 |       38
-      202 | Orly Gasking         |       6 |          597.45 |           5 |       38
-       56 | Titus Lexa           |       1 |           261.3 |           2 |       38
-      163 | Ingeberg Wooderson   |       4 |          669.02 |           3 |       38
-       82 | Stacey Congreve      |       6 |          711.79 |           6 |       38
-       52 | Tobin Eskell         |       6 |           23.65 |           7 |       39
-      102 | Lucie Demer          |       5 |          541.81 |           2 |       39
-       73 | Filia Prest          |       6 |          482.12 |           7 |       39
-       46 | Meyer Potapczuk      |       2 |          692.23 |           2 |       39
-       25 | Melantha Trowell     |       4 |          677.72 |           1 |       39
-       11 | Hannah Bee           |       3 |             325 |           2 |       40
-      101 | Nadia Grimmer        |       6 |          900.55 |           7 |       41
-       57 | Grethel Matantsev    |       6 |          876.86 |           6 |       41
-       30 | Ashlie Seater        |       3 |          625.87 |           2 |       41
-      167 | Lottie Oulner        |       3 |             725 |           7 |       41
-       32 | Tally Durrad         |       5 |          648.85 |           1 |       41
-       45 | Carmon Orfeur        |       4 |          691.41 |           7 |       41
-      153 | Bjorn Tootin         |       2 |          212.03 |           3 |       42
-      140 | Dalli Wicklen        |       6 |          455.57 |           6 |       42
-      154 | Cristal Jorck        |       3 |          796.53 |           7 |       42
-       91 | Mano Arnecke         |       7 |          372.71 |           4 |       42
-       20 | Gwenni Dubarry       |       5 |            73.5 |           1 |       43
-      173 | Esma Penning         |       3 |          696.91 |           2 |       43
-      158 | Zared Hartropp       |       7 |          294.07 |           2 |       43
-      157 | Amber Nisuis         |       2 |           40.47 |           7 |       43
-      150 | Waldo Dary           |       4 |          622.64 |           2 |       43
-      124 | Orv Hurle            |       1 |           581.7 |           1 |       43
-      195 | Fanchon Strass       |       6 |          247.64 |           6 |       43
-        4 | Rathbones Arr        |       6 |          263.82 |           6 |       44
-      184 | Joelie Bolmann       |       1 |          881.07 |           2 |       45
-      170 | Tito Naisbit         |       6 |          235.89 |           5 |       45
-       54 | Gus Disman           |       7 |          519.32 |           2 |       46
-      192 | Wye Ferebee          |       5 |            41.8 |           7 |       46
-      122 | Marcello Filliskirk  |       2 |          550.39 |           7 |       46
-       76 | Darill Rosenthal     |       5 |          951.66 |           1 |       46
-      127 | Dorie Sperwell       |       4 |          604.15 |           5 |       46
-       74 | Margareta Sartain    |       6 |          984.61 |           3 |       46
-       10 | Slam Dunk            |       5 |          801.65 |           1 |       47
-       12 | Rainsface W          |       7 |             120 |           6 |       48
-       19 | Haskel McKinless     |       3 |          146.77 |           7 |       49
-       21 | Booth Innocenti      |       3 |           622.6 |           1 |       49
-      151 | Daveta Mather        |       2 |          755.48 |           7 |       49
-       29 | Zenia Faich          |       5 |             444 |           7 |       49
-      174 | Tony Rime            |       5 |          544.18 |           1 |       49
-      113 | Hervey Mickleburgh   |       4 |          951.77 |           6 |       50
-      203 | Stanleigh Garwood    |       7 |           30.79 |           4 |       50
-       59 | Agnesse Peniman      |       2 |          462.78 |           6 |       50
-       24 | Lynea Van den Bosch  |       5 |          800.24 |           1 |       50
-       15 | Pat Munns            |       3 |          737.96 |           7 |       50
-      210 | Julianna Togwell     |       4 |          704.17 |           7 |       50
-      172 | Lotty Kristoffersen  |       2 |          797.85 |           4 |       51
-      179 | Janel Speechley      |       7 |           39.38 |           4 |       51
-      204 | Flossy Thurling      |       5 |           803.8 |           1 |       51
-      156 | Auguste Fisbey       |       5 |           57.17 |           1 |       51
-       38 | Aridatha Ianinotti   |       4 |          822.21 |           2 |       51
-       48 | Hervey Fadell        |       6 |          104.36 |           1 |       52
-      118 | Sibyl Strathman      |       1 |          225.92 |           2 |       52
-       68 | Harman Callam        |       5 |          217.82 |           1 |       52
-      148 | West Tattersill      |       4 |          540.01 |           6 |       52
-       49 | Daron Humpage        |       3 |          412.53 |           7 |       52
-       61 | Farleigh Dunsire     |       2 |          272.13 |           3 |       53
-       62 | Verena Houtby        |       4 |          348.59 |           2 |       53
-       84 | Kennie Phipp         |       3 |          784.17 |           1 |       53
-      209 | Reena Dunkersley     |       1 |          368.22 |           1 |       53
-      193 | Jackie Preon         |       2 |          254.08 |           4 |       53
-       77 | Theodoric Henze      |       1 |           34.22 |           2 |       53
-      185 | Mil Stivers          |       6 |           925.9 |           7 |       53
-      199 | Johnny Tambling      |       7 |          317.52 |           7 |       53
-      162 | Cloris Durrell       |       2 |          814.26 |           3 |       54
-      181 | Hilton Budding       |       7 |          653.81 |           2 |       54
-      177 | Sharai Vines         |       3 |          114.29 |           7 |       55
-       26 | Laryssa Gowthrop     |       3 |          525.18 |           7 |       55
-       39 | Jervis Mathey        |       5 |          969.88 |           1 |       56
-       90 | Constanta Teas       |       6 |          698.73 |           4 |       56
-      134 | Sammy Mohun          |       2 |          565.68 |           2 |       56
-      182 | Rodrique Shackell    |       1 |          733.96 |           6 |       56
-       42 | Ninetta Pettwood     |       7 |          546.79 |           4 |       56
-      142 | Phylis Wildor        |       4 |          988.45 |           2 |       57
-       98 | Micaela Galliford    |       4 |           61.11 |           7 |       57
-      152 | Robinson Sapsforde   |       4 |          539.74 |           3 |       57
+ model_id |      model_name      | area_id | agent_id | price_per_event | category_id | trait_id 
+----------+----------------------+---------+----------+-----------------+-------------+----------
+        1 | Bartholomew P        |       3 |        3 |          499.99 |           7 |        1
+       99 | Rayshell Beresfore   |       6 |        7 |          376.86 |           6 |        2
+      107 | Delilah Ducker       |       2 |        5 |           45.43 |           3 |        2
+       16 | Kasper Topling       |       6 |        7 |          905.77 |           7 |        2
+       93 | Margareta Hooks      |       7 |        6 |          265.88 |           4 |        3
+      109 | Millard Longhorn     |       5 |        2 |          510.92 |           1 |        3
+      139 | Clemens Gaythorpe    |       6 |        7 |          393.83 |           5 |        3
+      180 | Nancey Moores        |       6 |        7 |           87.32 |           6 |        3
+      160 | Kenny Petrelluzzi    |       1 |        4 |          853.31 |           1 |        3
+       97 | Ajay Giametti        |       3 |        3 |          126.19 |           7 |        3
+      198 | Lyndsay Schirak      |       4 |        1 |          600.23 |           3 |        3
+       44 | Zandra Siggs         |       4 |        1 |          274.27 |           6 |        4
+       89 | Orin Smuth           |       2 |        5 |          138.11 |           3 |        4
+       87 | Kissie Jandel        |       4 |        1 |          370.34 |           6 |        4
+      166 | Even Fayerbrother    |       1 |        4 |          382.68 |           6 |        4
+        9 | Salle De Bain        |       4 |        1 |             150 |           5 |        5
+       55 | Barbabas Biles       |       7 |        6 |          694.95 |           1 |        6
+      208 | Jarrod Lorriman      |       4 |        1 |          826.13 |           6 |        6
+       86 | Marji Semorad        |       2 |        5 |          335.98 |           2 |        7
+       35 | Raimondo Causby      |       5 |        2 |          860.55 |           1 |        7
+       51 | Gregoor Pearne       |       7 |        6 |          745.96 |           4 |        7
+      110 | Bayard Camilleri     |       3 |        3 |          540.52 |           2 |        7
+       94 | Livvy Brattan        |       5 |        2 |          732.49 |           2 |        8
+      207 | Fabe Naden           |       5 |        2 |          349.34 |           6 |        8
+       92 | Dona Whittleton      |       3 |        3 |          729.24 |           7 |        8
+      214 | Lowrance Brattell    |       3 |        3 |          588.22 |           2 |        8
+        5 | Sarah B              |       1 |        4 |          432.25 |           1 |        9
+      197 | Corette Forgan       |       7 |        6 |           288.4 |           2 |       10
+      135 | Anatole Fearnyhough  |       6 |        7 |          123.27 |           4 |       10
+      175 | Evangelia Cristea    |       5 |        2 |          289.02 |           1 |       10
+      103 | Violette Tombleson   |       3 |        3 |          936.06 |           7 |       11
+       72 | Keven Tanby          |       3 |        3 |          535.66 |           7 |       11
+      141 | Tildi Grigoryov      |       2 |        5 |          285.38 |           4 |       11
+      183 | Dredi Wharby         |       6 |        7 |          719.06 |           6 |       11
+      116 | Ingemar Gaul         |       1 |        4 |          688.47 |           3 |       12
+       79 | Haslett McTrustey    |       1 |        4 |          961.98 |           2 |       12
+      123 | Toni Drei            |       3 |        3 |          194.82 |           6 |       13
+      155 | Brandice Lamberton   |       7 |        6 |          712.52 |           4 |       13
+      186 | Melissa Albers       |       5 |        2 |          799.12 |           1 |       14
+      211 | Joanna Cogdon        |       5 |        2 |          568.89 |           1 |       14
+      165 | La verne Scroxton    |       7 |        6 |          917.21 |           2 |       14
+      159 | Morlee Thomtson      |       4 |        1 |          927.93 |           5 |       14
+       64 | Hagan Romanini       |       2 |        5 |          965.73 |           3 |       14
+      108 | Regen Aldrin         |       4 |        1 |          440.61 |           7 |       15
+      189 | Ernestus Dyer        |       5 |        2 |           43.58 |           2 |       15
+       34 | Selene Fowle         |       3 |        3 |          897.98 |           7 |       15
+      171 | Tomkin Soan          |       5 |        2 |          324.56 |           7 |       15
+      143 | Donna Spofford       |       7 |        6 |          138.01 |           7 |       15
+      111 | Jacky Ibbeson        |       7 |        6 |          789.08 |           4 |       15
+      129 | Lenard Lumm          |       1 |        4 |          114.18 |           7 |       15
+       53 | Eugenia McCraine     |       1 |        4 |          449.59 |           2 |       15
+       88 | Halimeda Cordeix     |       6 |        7 |          313.71 |           6 |       15
+      190 | Raquela Kalkhoven    |       2 |        5 |          985.08 |           1 |       16
+      100 | Whitman Neads        |       5 |        2 |          804.73 |           1 |       16
+       95 | Skyler Arend         |       2 |        5 |          325.12 |           1 |       16
+       70 | Dniren Sulley        |       3 |        3 |          678.53 |           2 |       16
+      194 | Patrice Ferrier      |       1 |        4 |           495.4 |           1 |       17
+      119 | Janella Clearie      |       3 |        3 |          648.68 |           7 |       17
+       60 | Bendick Douglass     |       6 |        7 |          945.58 |           2 |       17
+       85 | Pryce Tolotti        |       3 |        3 |          109.59 |           7 |       17
+       47 | Melisandra Achurch   |       4 |        1 |           20.99 |           7 |       17
+      133 | Sheela Illsley       |       5 |        2 |          759.93 |           1 |       17
+       13 | Raul Pogerson        |       4 |        1 |              50 |           5 |       18
+      137 | Ber Cawkwell         |       4 |        1 |          760.11 |           2 |       19
+       80 | Holly Thwaites       |       1 |        4 |          257.56 |           7 |       19
+      206 | Kiley Hafner         |       4 |        1 |          914.95 |           7 |       19
+       66 | Jobyna Denisevich    |       6 |        7 |          462.76 |           7 |       19
+      121 | Anna diane Blondin   |       4 |        1 |          502.86 |           1 |       19
+      126 | Devan Henrie         |       2 |        5 |          970.13 |           6 |       19
+      131 | Lona Firks           |       2 |        5 |          898.42 |           3 |       19
+       14 | Ray Z                |       6 |        7 |          470.68 |           6 |       20
+      115 | Cyb Pryn             |       5 |        2 |          128.81 |           7 |       21
+      196 | Adriano Carrick      |       4 |        1 |          935.35 |           2 |       21
+      161 | Veronica Guidoni     |       2 |        5 |          276.57 |           7 |       21
+      205 | Patrice Philippson   |       2 |        5 |          590.69 |           2 |       21
+       28 | Alejandrina Bambrugh |       7 |        6 |          577.21 |           4 |       22
+       71 | Shanon Bodman        |       6 |        7 |          596.48 |           6 |       22
+      114 | Drugi St. Leger      |       7 |        6 |          639.33 |           4 |       22
+      128 | Hale Fairburn        |       3 |        3 |            84.4 |           7 |       22
+      191 | Bili Wilkins         |       3 |        3 |          335.24 |           7 |       22
+       40 | Toinette Machon      |       1 |        4 |          953.21 |           2 |       22
+       67 | Nels Jaumet          |       5 |        2 |          921.94 |           1 |       22
+       50 | Leodora Trembath     |       7 |        6 |           82.59 |           1 |       23
+       83 | Corbie Jillings      |       4 |        1 |          459.55 |           1 |       23
+      164 | Vince Dendon         |       2 |        5 |           353.1 |           7 |       23
+        2 | Notso Neat           |       1 |        4 |            9.99 |           2 |       24
+      212 | Jemmie Cannop        |       3 |        3 |           13.34 |           7 |       25
+      112 | Jared Slimming       |       6 |        7 |          817.63 |           6 |       25
+        7 | Starr Schema         |       2 |        5 |             250 |           3 |       26
+      187 | Anatol Culligan      |       3 |        3 |          606.07 |           7 |       27
+       43 | Scot Connow          |       4 |        1 |          143.37 |           5 |       27
+      145 | Melina Heilds        |       1 |        4 |          280.63 |           2 |       27
+      144 | Nanny Camerana       |       5 |        2 |          717.28 |           5 |       27
+       22 | Bess Wildman         |       5 |        2 |          105.66 |           2 |       27
+      106 | Colin Palatini       |       4 |        1 |          877.37 |           6 |       28
+      105 | Jamey Golley         |       2 |        5 |          867.13 |           1 |       28
+       41 | Carrie Gerling       |       7 |        6 |          358.29 |           4 |       28
+       37 | Sergio Haversum      |       1 |        4 |          773.96 |           2 |       28
+       96 | Jeni Michel          |       6 |        7 |          613.03 |           4 |       28
+       63 | Yetty Wildblood      |       1 |        4 |          261.59 |           2 |       28
+       65 | Coletta Jonson       |       4 |        1 |          267.08 |           7 |       28
+        3 | Jarred MacKenzie     |       5 |        2 |             170 |           1 |       29
+        6 | Cat Wang             |       3 |        3 |             600 |           7 |       30
+       75 | Janey Fluin          |       3 |        3 |          263.88 |           1 |       31
+       81 | Georgie Sweetman     |       3 |        3 |          282.08 |           3 |       31
+       78 | Delinda Raubenheim   |       3 |        3 |          750.85 |           3 |       31
+      125 | Karil Jerwood        |       4 |        1 |          345.32 |           2 |       31
+       18 | Gerrard Scorthorne   |       7 |        6 |          377.39 |           4 |       31
+      178 | Eveline De Paoli     |       4 |        1 |           13.81 |           7 |       31
+      120 | Kyle Bester          |       3 |        3 |          180.42 |           7 |       31
+      201 | Shannon Dougharty    |       1 |        4 |           65.94 |           2 |       31
+       58 | Lesly Mallinar       |       7 |        6 |           833.1 |           4 |       31
+      169 | Codie Warters        |       7 |        6 |           23.24 |           3 |       32
+      147 | Giacopo Cubley       |       3 |        3 |          585.04 |           7 |       32
+      149 | Shepard Rawcliffe    |       7 |        6 |          819.18 |           4 |       32
+       33 | Amie Pepler          |       5 |        2 |          823.67 |           1 |       32
+       36 | Gilberta Leavey      |       5 |        2 |          150.69 |           7 |       33
+      168 | Ker Kidman           |       5 |        2 |          168.78 |           1 |       33
+       31 | Jean Laval           |       4 |        1 |          684.13 |           7 |       33
+      117 | Millard Scurrer      |       5 |        2 |           836.9 |           1 |       33
+        8 | Sam Pagne            |       7 |        6 |          899.99 |           4 |       34
+      213 | Deane Blinkhorn      |       7 |        6 |          647.59 |           7 |       35
+       17 | Ulrika MacGarvey     |       4 |        1 |          142.15 |           6 |       35
+      200 | Constantin Hagard    |       4 |        1 |          374.58 |           3 |       35
+      136 | Carey Stennes        |       5 |        2 |          960.39 |           7 |       35
+      138 | Bettina Brahmer      |       3 |        3 |          247.11 |           7 |       35
+      176 | Tyrone Beckmann      |       7 |        6 |          900.35 |           4 |       36
+       23 | Miles Newgrosh       |       2 |        5 |          968.73 |           7 |       36
+      188 | Merlina Beamson      |       5 |        2 |          434.15 |           1 |       36
+       69 | Roderick Piotrkowski |       2 |        5 |          677.03 |           1 |       36
+      146 | Monti Titlow         |       2 |        5 |          643.41 |           4 |       36
+      130 | Celka Paladino       |       6 |        7 |          288.15 |           6 |       36
+      104 | Jozef Esler          |       4 |        1 |           563.6 |           6 |       37
+      132 | Bank Hurl            |       4 |        1 |           15.53 |           3 |       37
+       82 | Stacey Congreve      |       6 |        7 |          711.79 |           6 |       38
+      202 | Orly Gasking         |       6 |        7 |          597.45 |           5 |       38
+      163 | Ingeberg Wooderson   |       4 |        1 |          669.02 |           3 |       38
+       56 | Titus Lexa           |       1 |        4 |           261.3 |           2 |       38
+       27 | Wolfgang Oxshott     |       2 |        5 |          346.91 |           3 |       38
+      102 | Lucie Demer          |       5 |        2 |          541.81 |           2 |       39
+       46 | Meyer Potapczuk      |       2 |        5 |          692.23 |           2 |       39
+       25 | Melantha Trowell     |       4 |        1 |          677.72 |           1 |       39
+       52 | Tobin Eskell         |       6 |        7 |           23.65 |           7 |       39
+       73 | Filia Prest          |       6 |        7 |          482.12 |           7 |       39
+       11 | Hannah Bee           |       3 |        3 |             325 |           2 |       40
+       32 | Tally Durrad         |       5 |        2 |          648.85 |           1 |       41
+       57 | Grethel Matantsev    |       6 |        7 |          876.86 |           6 |       41
+      101 | Nadia Grimmer        |       6 |        7 |          900.55 |           7 |       41
+       45 | Carmon Orfeur        |       4 |        1 |          691.41 |           7 |       41
+      167 | Lottie Oulner        |       3 |        3 |             725 |           7 |       41
+       30 | Ashlie Seater        |       3 |        3 |          625.87 |           2 |       41
+      153 | Bjorn Tootin         |       2 |        5 |          212.03 |           3 |       42
+      154 | Cristal Jorck        |       3 |        3 |          796.53 |           7 |       42
+       91 | Mano Arnecke         |       7 |        6 |          372.71 |           4 |       42
+      140 | Dalli Wicklen        |       6 |        7 |          455.57 |           6 |       42
+      150 | Waldo Dary           |       4 |        1 |          622.64 |           2 |       43
+       20 | Gwenni Dubarry       |       5 |        2 |            73.5 |           1 |       43
+      157 | Amber Nisuis         |       2 |        5 |           40.47 |           7 |       43
+      124 | Orv Hurle            |       1 |        4 |           581.7 |           1 |       43
+      195 | Fanchon Strass       |       6 |        7 |          247.64 |           6 |       43
+      158 | Zared Hartropp       |       7 |        6 |          294.07 |           2 |       43
+      173 | Esma Penning         |       3 |        3 |          696.91 |           2 |       43
+        4 | Rathbones Arr        |       6 |        7 |          263.82 |           6 |       44
+      170 | Tito Naisbit         |       6 |        7 |          235.89 |           5 |       45
+      184 | Joelie Bolmann       |       1 |        4 |          881.07 |           2 |       45
+      192 | Wye Ferebee          |       5 |        2 |            41.8 |           7 |       46
+       54 | Gus Disman           |       7 |        6 |          519.32 |           2 |       46
+      127 | Dorie Sperwell       |       4 |        1 |          604.15 |           5 |       46
+       74 | Margareta Sartain    |       6 |        7 |          984.61 |           3 |       46
+      122 | Marcello Filliskirk  |       2 |        5 |          550.39 |           7 |       46
+       76 | Darill Rosenthal     |       5 |        2 |          951.66 |           1 |       46
+       10 | Slam Dunk            |       5 |        2 |          801.65 |           1 |       47
+       12 | Rainsface W          |       7 |        6 |             120 |           6 |       48
+       19 | Haskel McKinless     |       3 |        3 |          146.77 |           7 |       49
+      151 | Daveta Mather        |       2 |        5 |          755.48 |           7 |       49
+       21 | Booth Innocenti      |       3 |        3 |           622.6 |           1 |       49
+      174 | Tony Rime            |       5 |        2 |          544.18 |           1 |       49
+       29 | Zenia Faich          |       5 |        2 |             444 |           7 |       49
+       15 | Pat Munns            |       3 |        3 |          737.96 |           7 |       50
+       59 | Agnesse Peniman      |       2 |        5 |          462.78 |           6 |       50
+      203 | Stanleigh Garwood    |       7 |        6 |           30.79 |           4 |       50
+      210 | Julianna Togwell     |       4 |        1 |          704.17 |           7 |       50
+       24 | Lynea Van den Bosch  |       5 |        2 |          800.24 |           1 |       50
+      113 | Hervey Mickleburgh   |       4 |        1 |          951.77 |           6 |       50
+      172 | Lotty Kristoffersen  |       2 |        5 |          797.85 |           4 |       51
+      156 | Auguste Fisbey       |       5 |        2 |           57.17 |           1 |       51
+      179 | Janel Speechley      |       7 |        6 |           39.38 |           4 |       51
+      204 | Flossy Thurling      |       5 |        2 |           803.8 |           1 |       51
+       38 | Aridatha Ianinotti   |       4 |        1 |          822.21 |           2 |       51
+       48 | Hervey Fadell        |       6 |        7 |          104.36 |           1 |       52
+       49 | Daron Humpage        |       3 |        3 |          412.53 |           7 |       52
+       68 | Harman Callam        |       5 |        2 |          217.82 |           1 |       52
+      148 | West Tattersill      |       4 |        1 |          540.01 |           6 |       52
+      118 | Sibyl Strathman      |       1 |        4 |          225.92 |           2 |       52
+      199 | Johnny Tambling      |       7 |        6 |          317.52 |           7 |       53
+       62 | Verena Houtby        |       4 |        1 |          348.59 |           2 |       53
+       77 | Theodoric Henze      |       1 |        4 |           34.22 |           2 |       53
+       61 | Farleigh Dunsire     |       2 |        5 |          272.13 |           3 |       53
+      193 | Jackie Preon         |       2 |        5 |          254.08 |           4 |       53
+      185 | Mil Stivers          |       6 |        7 |           925.9 |           7 |       53
+      209 | Reena Dunkersley     |       1 |        4 |          368.22 |           1 |       53
+       84 | Kennie Phipp         |       3 |        3 |          784.17 |           1 |       53
+      162 | Cloris Durrell       |       2 |        5 |          814.26 |           3 |       54
+      181 | Hilton Budding       |       7 |        6 |          653.81 |           2 |       54
+      177 | Sharai Vines         |       3 |        3 |          114.29 |           7 |       55
+       26 | Laryssa Gowthrop     |       3 |        3 |          525.18 |           7 |       55
+       42 | Ninetta Pettwood     |       7 |        6 |          546.79 |           4 |       56
+      134 | Sammy Mohun          |       2 |        5 |          565.68 |           2 |       56
+      182 | Rodrique Shackell    |       1 |        4 |          733.96 |           6 |       56
+       39 | Jervis Mathey        |       5 |        2 |          969.88 |           1 |       56
+       90 | Constanta Teas       |       6 |        7 |          698.73 |           4 |       56
+      152 | Robinson Sapsforde   |       4 |        1 |          539.74 |           3 |       57
+      142 | Phylis Wildor        |       4 |        1 |          988.45 |           2 |       57
+       98 | Micaela Galliford    |       4 |        1 |           61.11 |           7 |       57
 (214 rows)
 
 
@@ -822,9 +825,24 @@ Table: brand_relationships_3nf
       194 |       29
 (228 rows)
 
+
+Table: agents_3nf
+ agent_name | agent_id 
+------------+----------
+ Christian  |        1
+ Paul       |        2
+ Verity     |        3
+ Alex       |        4
+ Rose       |        5
+ Katherine  |        6
+ Kev        |        7
+(7 rows)
+
                       List of relations
  Schema |              Name              |   Type   |  Owner  
 --------+--------------------------------+----------+---------
+ public | agents_3nf                     | table    | matthew
+ public | agents_3nf_agent_id_seq        | sequence | matthew
  public | areas_3nf                      | table    | matthew
  public | areas_3nf_area_id_seq          | sequence | matthew
  public | brand_relationships_3nf        | table    | matthew
@@ -842,5 +860,5 @@ Table: brand_relationships_3nf
  public | models_model_id_seq            | sequence | matthew
  public | traits_3nf                     | table    | matthew
  public | traits_3nf_trait_id_seq        | sequence | matthew
-(17 rows)
+(19 rows)
 

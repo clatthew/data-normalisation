@@ -38,11 +38,20 @@ FROM
 ALTER TABLE events_3nf
 ADD event_id SERIAL PRIMARY KEY;
 
+CREATE TABLE agents_3nf AS
+SELECT DISTINCT
+    agent AS agent_name
+FROM models_2nf;
+
+ALTER TABLE agents_3nf
+ADD agent_id SERIAL PRIMARY KEY;
+
 CREATE TABLE models_3nf AS
 SELECT
     model_id
     , model_name
     , area_id
+    , agent_id
     , price_per_event
     , category_id
     , trait_id
@@ -51,6 +60,8 @@ JOIN areas_3nf
     USING (area)
 JOIN categories_3nf
     USING (category)
+JOIN agents_3nf
+    ON models_2nf.agent = agents_3nf.agent_name
 JOIN traits_3nf
     USING (trait);
 
@@ -60,17 +71,22 @@ ADD PRIMARY KEY (model_id);
 ALTER TABLE models_3nf
 ADD CONSTRAINT fk_areas_3nf
     FOREIGN KEY (area_id)
-        REFERENCES areas_3nf(area_id) ON DELETE CASCADE;
+        REFERENCES areas_3nf(area_id) ON DELETE SET NULL;
 
 ALTER TABLE models_3nf
 ADD CONSTRAINT fk_categories_3nf
     FOREIGN KEY (category_id)
-        REFERENCES categories_3nf(category_id) ON DELETE CASCADE;
+        REFERENCES categories_3nf(category_id) ON DELETE SET NULL;
 
 ALTER TABLE models_3nf
 ADD CONSTRAINT fk_traits_3nf
     FOREIGN KEY (trait_id)
-        REFERENCES traits_3nf(trait_id) ON DELETE CASCADE;
+        REFERENCES traits_3nf(trait_id) ON DELETE SET NULL;
+
+ALTER TABLE models_3nf
+ADD CONSTRAINT fk_agents_3nf
+    FOREIGN KEY (agent_id)
+        REFERENCES agents_3nf(agent_id) ON DELETE SET NULL;
 
 CREATE TABLE brands_3nf AS
 SELECT DISTINCT
@@ -101,6 +117,7 @@ ADD CONSTRAINT fk_brands_3nf
     FOREIGN KEY (brand_id)
         REFERENCES brands_3nf(brand_id) ON DELETE CASCADE;
 
+
 \echo '\nTable: areas_3nf'
 SELECT * FROM areas_3nf;
 \echo '\nTable: traits_3nf'
@@ -115,5 +132,7 @@ SELECT * FROM models_3nf;
 SELECT * FROM brands_3nf;
 \echo '\nTable: brand_relationships_3nf'
 SELECT * FROM brand_relationships_3nf;
+\echo '\nTable: agents_3nf'
+SELECT * FROM agents_3nf;
 
 \d
