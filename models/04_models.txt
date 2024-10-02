@@ -1,0 +1,73 @@
+You are now connected to database "topmodelsql" as user "matthew".
+
+A new brand, 'Atlantis Doromania', has hit the scene and wants to work with all models from London.
+INSERT 0 1
+     brand_name     | brand_id 
+--------------------+----------
+ Atlantis Doromania |       36
+(1 row)
+
+INSERT 0 28
+     brand_name     |     model_name      | area_name 
+--------------------+---------------------+-----------
+ Atlantis Doromania | Rayshell Beresfore  | London
+ Atlantis Doromania | Kasper Topling      | London
+ Atlantis Doromania | Clemens Gaythorpe   | London
+ Atlantis Doromania | Nancey Moores       | London
+ Atlantis Doromania | Anatole Fearnyhough | London
+ Atlantis Doromania | Dredi Wharby        | London
+ Atlantis Doromania | Halimeda Cordeix    | London
+ Atlantis Doromania | Bendick Douglass    | London
+ Atlantis Doromania | Jobyna Denisevich   | London
+ Atlantis Doromania | Ray Z               | London
+ Atlantis Doromania | Shanon Bodman       | London
+ Atlantis Doromania | Jared Slimming      | London
+ Atlantis Doromania | Jeni Michel         | London
+ Atlantis Doromania | Celka Paladino      | London
+ Atlantis Doromania | Stacey Congreve     | London
+ Atlantis Doromania | Orly Gasking        | London
+ Atlantis Doromania | Tobin Eskell        | London
+ Atlantis Doromania | Filia Prest         | London
+ Atlantis Doromania | Grethel Matantsev   | London
+ Atlantis Doromania | Nadia Grimmer       | London
+ Atlantis Doromania | Dalli Wicklen       | London
+ Atlantis Doromania | Fanchon Strass      | London
+ Atlantis Doromania | Rathbones Arr       | London
+ Atlantis Doromania | Tito Naisbit        | London
+ Atlantis Doromania | Margareta Sartain   | London
+ Atlantis Doromania | Hervey Fadell       | London
+ Atlantis Doromania | Mil Stivers         | London
+ Atlantis Doromania | Constanta Teas      | London
+(28 rows)
+
+
+Verity has too much work and needs an assistant in their area.
+Update the agents table to reflect the new team member.
+Verity's assistant will take over the models that work for Dior.
+INSERT 0 1
+
+Agents and their locations:
+     agent_name     |  area_name  
+--------------------+-------------
+ Alex               | Online
+ Christian          | Stockholm
+ Katherine          | Athens
+ Kev                | London
+ Paul               | Los Angeles
+ Rose               | Crewe
+ Verity             | Milan
+ Verity's assistant | Milan
+(8 rows)
+
+UPDATE 1
+
+Models doing work with Dior:
+    model_name    |     agent_name     | area_name 
+------------------+--------------------+-----------
+ Hannah Bee       | Verity's assistant | Milan
+ Jozef Esler      | Christian          | Stockholm
+ Stacey Congreve  | Kev                | London
+ Reena Dunkersley | Alex               | Online
+ Titus Lexa       | Alex               | Online
+(5 rows)
+

@@ -2,7 +2,7 @@
 
 CREATE TABLE areas_3nf AS
 SELECT DISTINCT
-    area
+    area AS area_name
 FROM
     models_2nf;
 
@@ -15,7 +15,7 @@ SELECT DISTINCT
     , area_id
 FROM models_2nf
 JOIN areas_3nf
-    USING (area);
+    ON models_2nf.area = areas_3nf.area_name;
 
 ALTER TABLE agents_3nf
 ADD agent_id SERIAL PRIMARY KEY;

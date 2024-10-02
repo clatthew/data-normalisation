@@ -23,7 +23,7 @@ ALTER TABLE
 ALTER TABLE
 
 Table: areas_3nf
-    area     | area_id 
+  area_name  | area_id 
 -------------+---------
  Online      |       1
  Crewe       |       2
