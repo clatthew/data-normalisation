@@ -15,6 +15,7 @@ ALTER TABLE
 ALTER TABLE
 ALTER TABLE
 ALTER TABLE
+ALTER TABLE
 SELECT 35
 ALTER TABLE
 SELECT 228
@@ -857,8 +858,9 @@ Table: agents_3nf
  public | models_1nf                     | table    | matthew
  public | models_2nf                     | table    | matthew
  public | models_3nf                     | table    | matthew
+ public | models_3nf_model_id_seq        | sequence | matthew
  public | models_model_id_seq            | sequence | matthew
  public | traits_3nf                     | table    | matthew
  public | traits_3nf_trait_id_seq        | sequence | matthew
-(19 rows)
+(20 rows)
 
