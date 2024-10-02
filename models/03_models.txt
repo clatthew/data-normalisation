@@ -1,16 +1,16 @@
 You are now connected to database "topmodelsql" as user "matthew".
 SELECT 7
 ALTER TABLE
+SELECT 7
+ALTER TABLE
+ALTER TABLE
 SELECT 57
 ALTER TABLE
 SELECT 7
 ALTER TABLE
 SELECT 214
 ALTER TABLE
-SELECT 7
-ALTER TABLE
 SELECT 214
-ALTER TABLE
 ALTER TABLE
 ALTER TABLE
 ALTER TABLE
@@ -332,222 +332,222 @@ Table: events_3nf
 
 
 Table: models_3nf
- model_id |      model_name      | area_id | agent_id | price_per_event | category_id | trait_id 
-----------+----------------------+---------+----------+-----------------+-------------+----------
-        1 | Bartholomew P        |       3 |        3 |          499.99 |           7 |        1
-       99 | Rayshell Beresfore   |       6 |        7 |          376.86 |           6 |        2
-      107 | Delilah Ducker       |       2 |        5 |           45.43 |           3 |        2
-       16 | Kasper Topling       |       6 |        7 |          905.77 |           7 |        2
-       93 | Margareta Hooks      |       7 |        6 |          265.88 |           4 |        3
-      109 | Millard Longhorn     |       5 |        2 |          510.92 |           1 |        3
-      139 | Clemens Gaythorpe    |       6 |        7 |          393.83 |           5 |        3
-      180 | Nancey Moores        |       6 |        7 |           87.32 |           6 |        3
-      160 | Kenny Petrelluzzi    |       1 |        4 |          853.31 |           1 |        3
-       97 | Ajay Giametti        |       3 |        3 |          126.19 |           7 |        3
-      198 | Lyndsay Schirak      |       4 |        1 |          600.23 |           3 |        3
-       44 | Zandra Siggs         |       4 |        1 |          274.27 |           6 |        4
-       89 | Orin Smuth           |       2 |        5 |          138.11 |           3 |        4
-       87 | Kissie Jandel        |       4 |        1 |          370.34 |           6 |        4
-      166 | Even Fayerbrother    |       1 |        4 |          382.68 |           6 |        4
-        9 | Salle De Bain        |       4 |        1 |             150 |           5 |        5
-       55 | Barbabas Biles       |       7 |        6 |          694.95 |           1 |        6
-      208 | Jarrod Lorriman      |       4 |        1 |          826.13 |           6 |        6
-       86 | Marji Semorad        |       2 |        5 |          335.98 |           2 |        7
-       35 | Raimondo Causby      |       5 |        2 |          860.55 |           1 |        7
-       51 | Gregoor Pearne       |       7 |        6 |          745.96 |           4 |        7
-      110 | Bayard Camilleri     |       3 |        3 |          540.52 |           2 |        7
-       94 | Livvy Brattan        |       5 |        2 |          732.49 |           2 |        8
-      207 | Fabe Naden           |       5 |        2 |          349.34 |           6 |        8
-       92 | Dona Whittleton      |       3 |        3 |          729.24 |           7 |        8
-      214 | Lowrance Brattell    |       3 |        3 |          588.22 |           2 |        8
-        5 | Sarah B              |       1 |        4 |          432.25 |           1 |        9
-      197 | Corette Forgan       |       7 |        6 |           288.4 |           2 |       10
-      135 | Anatole Fearnyhough  |       6 |        7 |          123.27 |           4 |       10
-      175 | Evangelia Cristea    |       5 |        2 |          289.02 |           1 |       10
-      103 | Violette Tombleson   |       3 |        3 |          936.06 |           7 |       11
-       72 | Keven Tanby          |       3 |        3 |          535.66 |           7 |       11
-      141 | Tildi Grigoryov      |       2 |        5 |          285.38 |           4 |       11
-      183 | Dredi Wharby         |       6 |        7 |          719.06 |           6 |       11
-      116 | Ingemar Gaul         |       1 |        4 |          688.47 |           3 |       12
-       79 | Haslett McTrustey    |       1 |        4 |          961.98 |           2 |       12
-      123 | Toni Drei            |       3 |        3 |          194.82 |           6 |       13
-      155 | Brandice Lamberton   |       7 |        6 |          712.52 |           4 |       13
-      186 | Melissa Albers       |       5 |        2 |          799.12 |           1 |       14
-      211 | Joanna Cogdon        |       5 |        2 |          568.89 |           1 |       14
-      165 | La verne Scroxton    |       7 |        6 |          917.21 |           2 |       14
-      159 | Morlee Thomtson      |       4 |        1 |          927.93 |           5 |       14
-       64 | Hagan Romanini       |       2 |        5 |          965.73 |           3 |       14
-      108 | Regen Aldrin         |       4 |        1 |          440.61 |           7 |       15
-      189 | Ernestus Dyer        |       5 |        2 |           43.58 |           2 |       15
-       34 | Selene Fowle         |       3 |        3 |          897.98 |           7 |       15
-      171 | Tomkin Soan          |       5 |        2 |          324.56 |           7 |       15
-      143 | Donna Spofford       |       7 |        6 |          138.01 |           7 |       15
-      111 | Jacky Ibbeson        |       7 |        6 |          789.08 |           4 |       15
-      129 | Lenard Lumm          |       1 |        4 |          114.18 |           7 |       15
-       53 | Eugenia McCraine     |       1 |        4 |          449.59 |           2 |       15
-       88 | Halimeda Cordeix     |       6 |        7 |          313.71 |           6 |       15
-      190 | Raquela Kalkhoven    |       2 |        5 |          985.08 |           1 |       16
-      100 | Whitman Neads        |       5 |        2 |          804.73 |           1 |       16
-       95 | Skyler Arend         |       2 |        5 |          325.12 |           1 |       16
-       70 | Dniren Sulley        |       3 |        3 |          678.53 |           2 |       16
-      194 | Patrice Ferrier      |       1 |        4 |           495.4 |           1 |       17
-      119 | Janella Clearie      |       3 |        3 |          648.68 |           7 |       17
-       60 | Bendick Douglass     |       6 |        7 |          945.58 |           2 |       17
-       85 | Pryce Tolotti        |       3 |        3 |          109.59 |           7 |       17
-       47 | Melisandra Achurch   |       4 |        1 |           20.99 |           7 |       17
-      133 | Sheela Illsley       |       5 |        2 |          759.93 |           1 |       17
-       13 | Raul Pogerson        |       4 |        1 |              50 |           5 |       18
-      137 | Ber Cawkwell         |       4 |        1 |          760.11 |           2 |       19
-       80 | Holly Thwaites       |       1 |        4 |          257.56 |           7 |       19
-      206 | Kiley Hafner         |       4 |        1 |          914.95 |           7 |       19
-       66 | Jobyna Denisevich    |       6 |        7 |          462.76 |           7 |       19
-      121 | Anna diane Blondin   |       4 |        1 |          502.86 |           1 |       19
-      126 | Devan Henrie         |       2 |        5 |          970.13 |           6 |       19
-      131 | Lona Firks           |       2 |        5 |          898.42 |           3 |       19
-       14 | Ray Z                |       6 |        7 |          470.68 |           6 |       20
-      115 | Cyb Pryn             |       5 |        2 |          128.81 |           7 |       21
-      196 | Adriano Carrick      |       4 |        1 |          935.35 |           2 |       21
-      161 | Veronica Guidoni     |       2 |        5 |          276.57 |           7 |       21
-      205 | Patrice Philippson   |       2 |        5 |          590.69 |           2 |       21
-       28 | Alejandrina Bambrugh |       7 |        6 |          577.21 |           4 |       22
-       71 | Shanon Bodman        |       6 |        7 |          596.48 |           6 |       22
-      114 | Drugi St. Leger      |       7 |        6 |          639.33 |           4 |       22
-      128 | Hale Fairburn        |       3 |        3 |            84.4 |           7 |       22
-      191 | Bili Wilkins         |       3 |        3 |          335.24 |           7 |       22
-       40 | Toinette Machon      |       1 |        4 |          953.21 |           2 |       22
-       67 | Nels Jaumet          |       5 |        2 |          921.94 |           1 |       22
-       50 | Leodora Trembath     |       7 |        6 |           82.59 |           1 |       23
-       83 | Corbie Jillings      |       4 |        1 |          459.55 |           1 |       23
-      164 | Vince Dendon         |       2 |        5 |           353.1 |           7 |       23
-        2 | Notso Neat           |       1 |        4 |            9.99 |           2 |       24
-      212 | Jemmie Cannop        |       3 |        3 |           13.34 |           7 |       25
-      112 | Jared Slimming       |       6 |        7 |          817.63 |           6 |       25
-        7 | Starr Schema         |       2 |        5 |             250 |           3 |       26
-      187 | Anatol Culligan      |       3 |        3 |          606.07 |           7 |       27
-       43 | Scot Connow          |       4 |        1 |          143.37 |           5 |       27
-      145 | Melina Heilds        |       1 |        4 |          280.63 |           2 |       27
-      144 | Nanny Camerana       |       5 |        2 |          717.28 |           5 |       27
-       22 | Bess Wildman         |       5 |        2 |          105.66 |           2 |       27
-      106 | Colin Palatini       |       4 |        1 |          877.37 |           6 |       28
-      105 | Jamey Golley         |       2 |        5 |          867.13 |           1 |       28
-       41 | Carrie Gerling       |       7 |        6 |          358.29 |           4 |       28
-       37 | Sergio Haversum      |       1 |        4 |          773.96 |           2 |       28
-       96 | Jeni Michel          |       6 |        7 |          613.03 |           4 |       28
-       63 | Yetty Wildblood      |       1 |        4 |          261.59 |           2 |       28
-       65 | Coletta Jonson       |       4 |        1 |          267.08 |           7 |       28
-        3 | Jarred MacKenzie     |       5 |        2 |             170 |           1 |       29
-        6 | Cat Wang             |       3 |        3 |             600 |           7 |       30
-       75 | Janey Fluin          |       3 |        3 |          263.88 |           1 |       31
-       81 | Georgie Sweetman     |       3 |        3 |          282.08 |           3 |       31
-       78 | Delinda Raubenheim   |       3 |        3 |          750.85 |           3 |       31
-      125 | Karil Jerwood        |       4 |        1 |          345.32 |           2 |       31
-       18 | Gerrard Scorthorne   |       7 |        6 |          377.39 |           4 |       31
-      178 | Eveline De Paoli     |       4 |        1 |           13.81 |           7 |       31
-      120 | Kyle Bester          |       3 |        3 |          180.42 |           7 |       31
-      201 | Shannon Dougharty    |       1 |        4 |           65.94 |           2 |       31
-       58 | Lesly Mallinar       |       7 |        6 |           833.1 |           4 |       31
-      169 | Codie Warters        |       7 |        6 |           23.24 |           3 |       32
-      147 | Giacopo Cubley       |       3 |        3 |          585.04 |           7 |       32
-      149 | Shepard Rawcliffe    |       7 |        6 |          819.18 |           4 |       32
-       33 | Amie Pepler          |       5 |        2 |          823.67 |           1 |       32
-       36 | Gilberta Leavey      |       5 |        2 |          150.69 |           7 |       33
-      168 | Ker Kidman           |       5 |        2 |          168.78 |           1 |       33
-       31 | Jean Laval           |       4 |        1 |          684.13 |           7 |       33
-      117 | Millard Scurrer      |       5 |        2 |           836.9 |           1 |       33
-        8 | Sam Pagne            |       7 |        6 |          899.99 |           4 |       34
-      213 | Deane Blinkhorn      |       7 |        6 |          647.59 |           7 |       35
-       17 | Ulrika MacGarvey     |       4 |        1 |          142.15 |           6 |       35
-      200 | Constantin Hagard    |       4 |        1 |          374.58 |           3 |       35
-      136 | Carey Stennes        |       5 |        2 |          960.39 |           7 |       35
-      138 | Bettina Brahmer      |       3 |        3 |          247.11 |           7 |       35
-      176 | Tyrone Beckmann      |       7 |        6 |          900.35 |           4 |       36
-       23 | Miles Newgrosh       |       2 |        5 |          968.73 |           7 |       36
-      188 | Merlina Beamson      |       5 |        2 |          434.15 |           1 |       36
-       69 | Roderick Piotrkowski |       2 |        5 |          677.03 |           1 |       36
-      146 | Monti Titlow         |       2 |        5 |          643.41 |           4 |       36
-      130 | Celka Paladino       |       6 |        7 |          288.15 |           6 |       36
-      104 | Jozef Esler          |       4 |        1 |           563.6 |           6 |       37
-      132 | Bank Hurl            |       4 |        1 |           15.53 |           3 |       37
-       82 | Stacey Congreve      |       6 |        7 |          711.79 |           6 |       38
-      202 | Orly Gasking         |       6 |        7 |          597.45 |           5 |       38
-      163 | Ingeberg Wooderson   |       4 |        1 |          669.02 |           3 |       38
-       56 | Titus Lexa           |       1 |        4 |           261.3 |           2 |       38
-       27 | Wolfgang Oxshott     |       2 |        5 |          346.91 |           3 |       38
-      102 | Lucie Demer          |       5 |        2 |          541.81 |           2 |       39
-       46 | Meyer Potapczuk      |       2 |        5 |          692.23 |           2 |       39
-       25 | Melantha Trowell     |       4 |        1 |          677.72 |           1 |       39
-       52 | Tobin Eskell         |       6 |        7 |           23.65 |           7 |       39
-       73 | Filia Prest          |       6 |        7 |          482.12 |           7 |       39
-       11 | Hannah Bee           |       3 |        3 |             325 |           2 |       40
-       32 | Tally Durrad         |       5 |        2 |          648.85 |           1 |       41
-       57 | Grethel Matantsev    |       6 |        7 |          876.86 |           6 |       41
-      101 | Nadia Grimmer        |       6 |        7 |          900.55 |           7 |       41
-       45 | Carmon Orfeur        |       4 |        1 |          691.41 |           7 |       41
-      167 | Lottie Oulner        |       3 |        3 |             725 |           7 |       41
-       30 | Ashlie Seater        |       3 |        3 |          625.87 |           2 |       41
-      153 | Bjorn Tootin         |       2 |        5 |          212.03 |           3 |       42
-      154 | Cristal Jorck        |       3 |        3 |          796.53 |           7 |       42
-       91 | Mano Arnecke         |       7 |        6 |          372.71 |           4 |       42
-      140 | Dalli Wicklen        |       6 |        7 |          455.57 |           6 |       42
-      150 | Waldo Dary           |       4 |        1 |          622.64 |           2 |       43
-       20 | Gwenni Dubarry       |       5 |        2 |            73.5 |           1 |       43
-      157 | Amber Nisuis         |       2 |        5 |           40.47 |           7 |       43
-      124 | Orv Hurle            |       1 |        4 |           581.7 |           1 |       43
-      195 | Fanchon Strass       |       6 |        7 |          247.64 |           6 |       43
-      158 | Zared Hartropp       |       7 |        6 |          294.07 |           2 |       43
-      173 | Esma Penning         |       3 |        3 |          696.91 |           2 |       43
-        4 | Rathbones Arr        |       6 |        7 |          263.82 |           6 |       44
-      170 | Tito Naisbit         |       6 |        7 |          235.89 |           5 |       45
-      184 | Joelie Bolmann       |       1 |        4 |          881.07 |           2 |       45
-      192 | Wye Ferebee          |       5 |        2 |            41.8 |           7 |       46
-       54 | Gus Disman           |       7 |        6 |          519.32 |           2 |       46
-      127 | Dorie Sperwell       |       4 |        1 |          604.15 |           5 |       46
-       74 | Margareta Sartain    |       6 |        7 |          984.61 |           3 |       46
-      122 | Marcello Filliskirk  |       2 |        5 |          550.39 |           7 |       46
-       76 | Darill Rosenthal     |       5 |        2 |          951.66 |           1 |       46
-       10 | Slam Dunk            |       5 |        2 |          801.65 |           1 |       47
-       12 | Rainsface W          |       7 |        6 |             120 |           6 |       48
-       19 | Haskel McKinless     |       3 |        3 |          146.77 |           7 |       49
-      151 | Daveta Mather        |       2 |        5 |          755.48 |           7 |       49
-       21 | Booth Innocenti      |       3 |        3 |           622.6 |           1 |       49
-      174 | Tony Rime            |       5 |        2 |          544.18 |           1 |       49
-       29 | Zenia Faich          |       5 |        2 |             444 |           7 |       49
-       15 | Pat Munns            |       3 |        3 |          737.96 |           7 |       50
-       59 | Agnesse Peniman      |       2 |        5 |          462.78 |           6 |       50
-      203 | Stanleigh Garwood    |       7 |        6 |           30.79 |           4 |       50
-      210 | Julianna Togwell     |       4 |        1 |          704.17 |           7 |       50
-       24 | Lynea Van den Bosch  |       5 |        2 |          800.24 |           1 |       50
-      113 | Hervey Mickleburgh   |       4 |        1 |          951.77 |           6 |       50
-      172 | Lotty Kristoffersen  |       2 |        5 |          797.85 |           4 |       51
-      156 | Auguste Fisbey       |       5 |        2 |           57.17 |           1 |       51
-      179 | Janel Speechley      |       7 |        6 |           39.38 |           4 |       51
-      204 | Flossy Thurling      |       5 |        2 |           803.8 |           1 |       51
-       38 | Aridatha Ianinotti   |       4 |        1 |          822.21 |           2 |       51
-       48 | Hervey Fadell        |       6 |        7 |          104.36 |           1 |       52
-       49 | Daron Humpage        |       3 |        3 |          412.53 |           7 |       52
-       68 | Harman Callam        |       5 |        2 |          217.82 |           1 |       52
-      148 | West Tattersill      |       4 |        1 |          540.01 |           6 |       52
-      118 | Sibyl Strathman      |       1 |        4 |          225.92 |           2 |       52
-      199 | Johnny Tambling      |       7 |        6 |          317.52 |           7 |       53
-       62 | Verena Houtby        |       4 |        1 |          348.59 |           2 |       53
-       77 | Theodoric Henze      |       1 |        4 |           34.22 |           2 |       53
-       61 | Farleigh Dunsire     |       2 |        5 |          272.13 |           3 |       53
-      193 | Jackie Preon         |       2 |        5 |          254.08 |           4 |       53
-      185 | Mil Stivers          |       6 |        7 |           925.9 |           7 |       53
-      209 | Reena Dunkersley     |       1 |        4 |          368.22 |           1 |       53
-       84 | Kennie Phipp         |       3 |        3 |          784.17 |           1 |       53
-      162 | Cloris Durrell       |       2 |        5 |          814.26 |           3 |       54
-      181 | Hilton Budding       |       7 |        6 |          653.81 |           2 |       54
-      177 | Sharai Vines         |       3 |        3 |          114.29 |           7 |       55
-       26 | Laryssa Gowthrop     |       3 |        3 |          525.18 |           7 |       55
-       42 | Ninetta Pettwood     |       7 |        6 |          546.79 |           4 |       56
-      134 | Sammy Mohun          |       2 |        5 |          565.68 |           2 |       56
-      182 | Rodrique Shackell    |       1 |        4 |          733.96 |           6 |       56
-       39 | Jervis Mathey        |       5 |        2 |          969.88 |           1 |       56
-       90 | Constanta Teas       |       6 |        7 |          698.73 |           4 |       56
-      152 | Robinson Sapsforde   |       4 |        1 |          539.74 |           3 |       57
-      142 | Phylis Wildor        |       4 |        1 |          988.45 |           2 |       57
-       98 | Micaela Galliford    |       4 |        1 |           61.11 |           7 |       57
+ model_id |      model_name      | agent_id | price_per_event | category_id | trait_id 
+----------+----------------------+----------+-----------------+-------------+----------
+        1 | Bartholomew P        |        7 |          499.99 |           7 |        1
+       99 | Rayshell Beresfore   |        4 |          376.86 |           6 |        2
+      107 | Delilah Ducker       |        6 |           45.43 |           3 |        2
+       16 | Kasper Topling       |        4 |          905.77 |           7 |        2
+       93 | Margareta Hooks      |        3 |          265.88 |           4 |        3
+      109 | Millard Longhorn     |        5 |          510.92 |           1 |        3
+      139 | Clemens Gaythorpe    |        4 |          393.83 |           5 |        3
+      180 | Nancey Moores        |        4 |           87.32 |           6 |        3
+      160 | Kenny Petrelluzzi    |        1 |          853.31 |           1 |        3
+       97 | Ajay Giametti        |        7 |          126.19 |           7 |        3
+      198 | Lyndsay Schirak      |        2 |          600.23 |           3 |        3
+       44 | Zandra Siggs         |        2 |          274.27 |           6 |        4
+       89 | Orin Smuth           |        6 |          138.11 |           3 |        4
+       87 | Kissie Jandel        |        2 |          370.34 |           6 |        4
+      166 | Even Fayerbrother    |        1 |          382.68 |           6 |        4
+        9 | Salle De Bain        |        2 |             150 |           5 |        5
+       55 | Barbabas Biles       |        3 |          694.95 |           1 |        6
+      208 | Jarrod Lorriman      |        2 |          826.13 |           6 |        6
+       86 | Marji Semorad        |        6 |          335.98 |           2 |        7
+       35 | Raimondo Causby      |        5 |          860.55 |           1 |        7
+       51 | Gregoor Pearne       |        3 |          745.96 |           4 |        7
+      110 | Bayard Camilleri     |        7 |          540.52 |           2 |        7
+       94 | Livvy Brattan        |        5 |          732.49 |           2 |        8
+      207 | Fabe Naden           |        5 |          349.34 |           6 |        8
+       92 | Dona Whittleton      |        7 |          729.24 |           7 |        8
+      214 | Lowrance Brattell    |        7 |          588.22 |           2 |        8
+        5 | Sarah B              |        1 |          432.25 |           1 |        9
+      197 | Corette Forgan       |        3 |           288.4 |           2 |       10
+      135 | Anatole Fearnyhough  |        4 |          123.27 |           4 |       10
+      175 | Evangelia Cristea    |        5 |          289.02 |           1 |       10
+      103 | Violette Tombleson   |        7 |          936.06 |           7 |       11
+       72 | Keven Tanby          |        7 |          535.66 |           7 |       11
+      141 | Tildi Grigoryov      |        6 |          285.38 |           4 |       11
+      183 | Dredi Wharby         |        4 |          719.06 |           6 |       11
+      116 | Ingemar Gaul         |        1 |          688.47 |           3 |       12
+       79 | Haslett McTrustey    |        1 |          961.98 |           2 |       12
+      123 | Toni Drei            |        7 |          194.82 |           6 |       13
+      155 | Brandice Lamberton   |        3 |          712.52 |           4 |       13
+      186 | Melissa Albers       |        5 |          799.12 |           1 |       14
+      211 | Joanna Cogdon        |        5 |          568.89 |           1 |       14
+      165 | La verne Scroxton    |        3 |          917.21 |           2 |       14
+      159 | Morlee Thomtson      |        2 |          927.93 |           5 |       14
+       64 | Hagan Romanini       |        6 |          965.73 |           3 |       14
+      108 | Regen Aldrin         |        2 |          440.61 |           7 |       15
+      189 | Ernestus Dyer        |        5 |           43.58 |           2 |       15
+       34 | Selene Fowle         |        7 |          897.98 |           7 |       15
+      171 | Tomkin Soan          |        5 |          324.56 |           7 |       15
+      143 | Donna Spofford       |        3 |          138.01 |           7 |       15
+      111 | Jacky Ibbeson        |        3 |          789.08 |           4 |       15
+      129 | Lenard Lumm          |        1 |          114.18 |           7 |       15
+       53 | Eugenia McCraine     |        1 |          449.59 |           2 |       15
+       88 | Halimeda Cordeix     |        4 |          313.71 |           6 |       15
+      190 | Raquela Kalkhoven    |        6 |          985.08 |           1 |       16
+      100 | Whitman Neads        |        5 |          804.73 |           1 |       16
+       95 | Skyler Arend         |        6 |          325.12 |           1 |       16
+       70 | Dniren Sulley        |        7 |          678.53 |           2 |       16
+      194 | Patrice Ferrier      |        1 |           495.4 |           1 |       17
+      119 | Janella Clearie      |        7 |          648.68 |           7 |       17
+       60 | Bendick Douglass     |        4 |          945.58 |           2 |       17
+       85 | Pryce Tolotti        |        7 |          109.59 |           7 |       17
+       47 | Melisandra Achurch   |        2 |           20.99 |           7 |       17
+      133 | Sheela Illsley       |        5 |          759.93 |           1 |       17
+       13 | Raul Pogerson        |        2 |              50 |           5 |       18
+      137 | Ber Cawkwell         |        2 |          760.11 |           2 |       19
+       80 | Holly Thwaites       |        1 |          257.56 |           7 |       19
+      206 | Kiley Hafner         |        2 |          914.95 |           7 |       19
+       66 | Jobyna Denisevich    |        4 |          462.76 |           7 |       19
+      121 | Anna diane Blondin   |        2 |          502.86 |           1 |       19
+      126 | Devan Henrie         |        6 |          970.13 |           6 |       19
+      131 | Lona Firks           |        6 |          898.42 |           3 |       19
+       14 | Ray Z                |        4 |          470.68 |           6 |       20
+      115 | Cyb Pryn             |        5 |          128.81 |           7 |       21
+      196 | Adriano Carrick      |        2 |          935.35 |           2 |       21
+      161 | Veronica Guidoni     |        6 |          276.57 |           7 |       21
+      205 | Patrice Philippson   |        6 |          590.69 |           2 |       21
+       28 | Alejandrina Bambrugh |        3 |          577.21 |           4 |       22
+       71 | Shanon Bodman        |        4 |          596.48 |           6 |       22
+      114 | Drugi St. Leger      |        3 |          639.33 |           4 |       22
+      128 | Hale Fairburn        |        7 |            84.4 |           7 |       22
+      191 | Bili Wilkins         |        7 |          335.24 |           7 |       22
+       40 | Toinette Machon      |        1 |          953.21 |           2 |       22
+       67 | Nels Jaumet          |        5 |          921.94 |           1 |       22
+       50 | Leodora Trembath     |        3 |           82.59 |           1 |       23
+       83 | Corbie Jillings      |        2 |          459.55 |           1 |       23
+      164 | Vince Dendon         |        6 |           353.1 |           7 |       23
+        2 | Notso Neat           |        1 |            9.99 |           2 |       24
+      212 | Jemmie Cannop        |        7 |           13.34 |           7 |       25
+      112 | Jared Slimming       |        4 |          817.63 |           6 |       25
+        7 | Starr Schema         |        6 |             250 |           3 |       26
+      187 | Anatol Culligan      |        7 |          606.07 |           7 |       27
+       43 | Scot Connow          |        2 |          143.37 |           5 |       27
+      145 | Melina Heilds        |        1 |          280.63 |           2 |       27
+      144 | Nanny Camerana       |        5 |          717.28 |           5 |       27
+       22 | Bess Wildman         |        5 |          105.66 |           2 |       27
+      106 | Colin Palatini       |        2 |          877.37 |           6 |       28
+      105 | Jamey Golley         |        6 |          867.13 |           1 |       28
+       41 | Carrie Gerling       |        3 |          358.29 |           4 |       28
+       37 | Sergio Haversum      |        1 |          773.96 |           2 |       28
+       96 | Jeni Michel          |        4 |          613.03 |           4 |       28
+       63 | Yetty Wildblood      |        1 |          261.59 |           2 |       28
+       65 | Coletta Jonson       |        2 |          267.08 |           7 |       28
+        3 | Jarred MacKenzie     |        5 |             170 |           1 |       29
+        6 | Cat Wang             |        7 |             600 |           7 |       30
+       75 | Janey Fluin          |        7 |          263.88 |           1 |       31
+       81 | Georgie Sweetman     |        7 |          282.08 |           3 |       31
+       78 | Delinda Raubenheim   |        7 |          750.85 |           3 |       31
+      125 | Karil Jerwood        |        2 |          345.32 |           2 |       31
+       18 | Gerrard Scorthorne   |        3 |          377.39 |           4 |       31
+      178 | Eveline De Paoli     |        2 |           13.81 |           7 |       31
+      120 | Kyle Bester          |        7 |          180.42 |           7 |       31
+      201 | Shannon Dougharty    |        1 |           65.94 |           2 |       31
+       58 | Lesly Mallinar       |        3 |           833.1 |           4 |       31
+      169 | Codie Warters        |        3 |           23.24 |           3 |       32
+      147 | Giacopo Cubley       |        7 |          585.04 |           7 |       32
+      149 | Shepard Rawcliffe    |        3 |          819.18 |           4 |       32
+       33 | Amie Pepler          |        5 |          823.67 |           1 |       32
+       36 | Gilberta Leavey      |        5 |          150.69 |           7 |       33
+      168 | Ker Kidman           |        5 |          168.78 |           1 |       33
+       31 | Jean Laval           |        2 |          684.13 |           7 |       33
+      117 | Millard Scurrer      |        5 |           836.9 |           1 |       33
+        8 | Sam Pagne            |        3 |          899.99 |           4 |       34
+      213 | Deane Blinkhorn      |        3 |          647.59 |           7 |       35
+       17 | Ulrika MacGarvey     |        2 |          142.15 |           6 |       35
+      200 | Constantin Hagard    |        2 |          374.58 |           3 |       35
+      136 | Carey Stennes        |        5 |          960.39 |           7 |       35
+      138 | Bettina Brahmer      |        7 |          247.11 |           7 |       35
+      176 | Tyrone Beckmann      |        3 |          900.35 |           4 |       36
+       23 | Miles Newgrosh       |        6 |          968.73 |           7 |       36
+      188 | Merlina Beamson      |        5 |          434.15 |           1 |       36
+       69 | Roderick Piotrkowski |        6 |          677.03 |           1 |       36
+      146 | Monti Titlow         |        6 |          643.41 |           4 |       36
+      130 | Celka Paladino       |        4 |          288.15 |           6 |       36
+      104 | Jozef Esler          |        2 |           563.6 |           6 |       37
+      132 | Bank Hurl            |        2 |           15.53 |           3 |       37
+       82 | Stacey Congreve      |        4 |          711.79 |           6 |       38
+      202 | Orly Gasking         |        4 |          597.45 |           5 |       38
+      163 | Ingeberg Wooderson   |        2 |          669.02 |           3 |       38
+       56 | Titus Lexa           |        1 |           261.3 |           2 |       38
+       27 | Wolfgang Oxshott     |        6 |          346.91 |           3 |       38
+      102 | Lucie Demer          |        5 |          541.81 |           2 |       39
+       46 | Meyer Potapczuk      |        6 |          692.23 |           2 |       39
+       25 | Melantha Trowell     |        2 |          677.72 |           1 |       39
+       52 | Tobin Eskell         |        4 |           23.65 |           7 |       39
+       73 | Filia Prest          |        4 |          482.12 |           7 |       39
+       11 | Hannah Bee           |        7 |             325 |           2 |       40
+       32 | Tally Durrad         |        5 |          648.85 |           1 |       41
+       57 | Grethel Matantsev    |        4 |          876.86 |           6 |       41
+      101 | Nadia Grimmer        |        4 |          900.55 |           7 |       41
+       45 | Carmon Orfeur        |        2 |          691.41 |           7 |       41
+      167 | Lottie Oulner        |        7 |             725 |           7 |       41
+       30 | Ashlie Seater        |        7 |          625.87 |           2 |       41
+      153 | Bjorn Tootin         |        6 |          212.03 |           3 |       42
+      154 | Cristal Jorck        |        7 |          796.53 |           7 |       42
+       91 | Mano Arnecke         |        3 |          372.71 |           4 |       42
+      140 | Dalli Wicklen        |        4 |          455.57 |           6 |       42
+      150 | Waldo Dary           |        2 |          622.64 |           2 |       43
+       20 | Gwenni Dubarry       |        5 |            73.5 |           1 |       43
+      157 | Amber Nisuis         |        6 |           40.47 |           7 |       43
+      124 | Orv Hurle            |        1 |           581.7 |           1 |       43
+      195 | Fanchon Strass       |        4 |          247.64 |           6 |       43
+      158 | Zared Hartropp       |        3 |          294.07 |           2 |       43
+      173 | Esma Penning         |        7 |          696.91 |           2 |       43
+        4 | Rathbones Arr        |        4 |          263.82 |           6 |       44
+      170 | Tito Naisbit         |        4 |          235.89 |           5 |       45
+      184 | Joelie Bolmann       |        1 |          881.07 |           2 |       45
+      192 | Wye Ferebee          |        5 |            41.8 |           7 |       46
+       54 | Gus Disman           |        3 |          519.32 |           2 |       46
+      127 | Dorie Sperwell       |        2 |          604.15 |           5 |       46
+       74 | Margareta Sartain    |        4 |          984.61 |           3 |       46
+      122 | Marcello Filliskirk  |        6 |          550.39 |           7 |       46
+       76 | Darill Rosenthal     |        5 |          951.66 |           1 |       46
+       10 | Slam Dunk            |        5 |          801.65 |           1 |       47
+       12 | Rainsface W          |        3 |             120 |           6 |       48
+       19 | Haskel McKinless     |        7 |          146.77 |           7 |       49
+      151 | Daveta Mather        |        6 |          755.48 |           7 |       49
+       21 | Booth Innocenti      |        7 |           622.6 |           1 |       49
+      174 | Tony Rime            |        5 |          544.18 |           1 |       49
+       29 | Zenia Faich          |        5 |             444 |           7 |       49
+       15 | Pat Munns            |        7 |          737.96 |           7 |       50
+       59 | Agnesse Peniman      |        6 |          462.78 |           6 |       50
+      203 | Stanleigh Garwood    |        3 |           30.79 |           4 |       50
+      210 | Julianna Togwell     |        2 |          704.17 |           7 |       50
+       24 | Lynea Van den Bosch  |        5 |          800.24 |           1 |       50
+      113 | Hervey Mickleburgh   |        2 |          951.77 |           6 |       50
+      172 | Lotty Kristoffersen  |        6 |          797.85 |           4 |       51
+      156 | Auguste Fisbey       |        5 |           57.17 |           1 |       51
+      179 | Janel Speechley      |        3 |           39.38 |           4 |       51
+      204 | Flossy Thurling      |        5 |           803.8 |           1 |       51
+       38 | Aridatha Ianinotti   |        2 |          822.21 |           2 |       51
+       48 | Hervey Fadell        |        4 |          104.36 |           1 |       52
+       49 | Daron Humpage        |        7 |          412.53 |           7 |       52
+       68 | Harman Callam        |        5 |          217.82 |           1 |       52
+      148 | West Tattersill      |        2 |          540.01 |           6 |       52
+      118 | Sibyl Strathman      |        1 |          225.92 |           2 |       52
+      199 | Johnny Tambling      |        3 |          317.52 |           7 |       53
+       62 | Verena Houtby        |        2 |          348.59 |           2 |       53
+       77 | Theodoric Henze      |        1 |           34.22 |           2 |       53
+       61 | Farleigh Dunsire     |        6 |          272.13 |           3 |       53
+      193 | Jackie Preon         |        6 |          254.08 |           4 |       53
+      185 | Mil Stivers          |        4 |           925.9 |           7 |       53
+      209 | Reena Dunkersley     |        1 |          368.22 |           1 |       53
+       84 | Kennie Phipp         |        7 |          784.17 |           1 |       53
+      162 | Cloris Durrell       |        6 |          814.26 |           3 |       54
+      181 | Hilton Budding       |        3 |          653.81 |           2 |       54
+      177 | Sharai Vines         |        7 |          114.29 |           7 |       55
+       26 | Laryssa Gowthrop     |        7 |          525.18 |           7 |       55
+       42 | Ninetta Pettwood     |        3 |          546.79 |           4 |       56
+      134 | Sammy Mohun          |        6 |          565.68 |           2 |       56
+      182 | Rodrique Shackell    |        1 |          733.96 |           6 |       56
+       39 | Jervis Mathey        |        5 |          969.88 |           1 |       56
+       90 | Constanta Teas       |        4 |          698.73 |           4 |       56
+      152 | Robinson Sapsforde   |        2 |          539.74 |           3 |       57
+      142 | Phylis Wildor        |        2 |          988.45 |           2 |       57
+       98 | Micaela Galliford    |        2 |           61.11 |           7 |       57
 (214 rows)
 
 
@@ -827,15 +827,15 @@ Table: brand_relationships_3nf
 
 
 Table: agents_3nf
- agent_name | agent_id 
-------------+----------
- Christian  |        1
- Paul       |        2
- Verity     |        3
- Alex       |        4
- Rose       |        5
- Katherine  |        6
- Kev        |        7
+ agent_name | area_id | agent_id 
+------------+---------+----------
+ Alex       |       1 |        1
+ Christian  |       4 |        2
+ Katherine  |       7 |        3
+ Kev        |       6 |        4
+ Paul       |       5 |        5
+ Rose       |       2 |        6
+ Verity     |       3 |        7
 (7 rows)
 
                       List of relations

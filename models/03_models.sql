@@ -9,6 +9,22 @@ FROM
 ALTER TABLE areas_3nf
 ADD area_id SERIAL PRIMARY KEY;
 
+CREATE TABLE agents_3nf AS
+SELECT DISTINCT
+    agent AS agent_name
+    , area_id
+FROM models_2nf
+JOIN areas_3nf
+    USING (area);
+
+ALTER TABLE agents_3nf
+ADD agent_id SERIAL PRIMARY KEY;
+
+ALTER TABLE agents_3nf
+ADD CONSTRAINT fk_areas_3nf
+    FOREIGN KEY (area_id)
+        REFERENCES areas_3nf(area_id) ON DELETE SET NULL;
+
 CREATE TABLE traits_3nf AS
 SELECT DISTINCT
     trait
@@ -38,26 +54,15 @@ FROM
 ALTER TABLE events_3nf
 ADD event_id SERIAL PRIMARY KEY;
 
-CREATE TABLE agents_3nf AS
-SELECT DISTINCT
-    agent AS agent_name
-FROM models_2nf;
-
-ALTER TABLE agents_3nf
-ADD agent_id SERIAL PRIMARY KEY;
-
 CREATE TABLE models_3nf AS
 SELECT
     model_id
     , model_name
-    , area_id
     , agent_id
     , price_per_event
     , category_id
     , trait_id
 FROM models_2nf
-JOIN areas_3nf
-    USING (area)
 JOIN categories_3nf
     USING (category)
 JOIN agents_3nf
@@ -67,11 +72,6 @@ JOIN traits_3nf
 
 ALTER TABLE models_3nf
 ADD PRIMARY KEY (model_id);
-
-ALTER TABLE models_3nf
-ADD CONSTRAINT fk_areas_3nf
-    FOREIGN KEY (area_id)
-        REFERENCES areas_3nf(area_id) ON DELETE SET NULL;
 
 ALTER TABLE models_3nf
 ADD CONSTRAINT fk_categories_3nf
