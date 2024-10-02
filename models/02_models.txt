@@ -1,0 +1,455 @@
+You are now connected to database "topmodelsql" as user "matthew".
+SELECT 214
+ALTER TABLE
+SELECT 228
+ALTER TABLE
+ model_id |      model_name      |    area     | price_per_event |  category   |                trait                 |  next_event_date  | revenue 
+----------+----------------------+-------------+-----------------+-------------+--------------------------------------+-------------------+---------
+       25 | Melantha Trowell     | Stockholm   |          677.72 | Fitness     | Unlimited Laughter Generation        | 02 August 2022    | 5420.18
+      207 | Fabe Naden           | Los Angeles |          349.34 | Parts       | Instantaneous Costume Changes        | 08 March 2022     | 4842.59
+      210 | Julianna Togwell     | Stockholm   |          704.17 | Fashion     | Super Slow Motion                    | 01 February 2024  | 8887.56
+      147 | Giacopo Cubley       | Milan       |          585.04 | Fashion     | Turn Anything into a Dad Joke        | 24 January 2023   | 4455.07
+       91 | Mano Arnecke         | Athens      |          372.71 | Swimsuit    | perfect pitch                        | 08 June 2025      | 4715.83
+      199 | Johnny Tambling      | Athens      |          317.52 | Fashion     | lucky charm                          | 19 February 2025  | 1623.87
+       31 | Jean Laval           | Stockholm   |          684.13 | Fashion     | Unlimited Dance Moves                | 13 January 2025   | 9272.94
+      180 | Nancey Moores        | London      |           87.32 | Parts       | wiggle ears                          | 12 April 2024     | 8417.73
+      103 | Violette Tombleson   | Milan       |          936.06 | Fashion     | Mildly Annoying Whistle              | 23 April 2022     | 8980.86
+       18 | Gerrard Scorthorne   | Athens      |          377.39 | Swimsuit    | handstands                           | 09 March 2024     | 8900.56
+      185 | Mil Stivers          | London      |           925.9 | Fashion     | lucky charm                          | 27 February 2023  | 4573.82
+       14 | Ray Z                | London      |          470.68 | Parts       | Card magic                           | 18 April 2022     | 5177.48
+       79 | Haslett McTrustey    | Online      |          961.98 | Promotional | Extreme Sarcasm Power                | 17 July 2024      | 3188.04
+       74 | Margareta Sartain    | London      |          984.61 | Glamour     | movie quotes                         | 27 December 2024  | 9933.17
+       60 | Bendick Douglass     | London      |          945.58 | Promotional | Super Ticklish Fingers               | 12 July 2023      | 1474.44
+       35 | Raimondo Causby      | Los Angeles |          860.55 | Fitness     | Superhuman Hiccup Control            | 17 August 2023    | 1266.66
+      200 | Constantin Hagard    | Stockholm   |          374.58 | Glamour     | Telepathic Yawn                      | 05 February 2024  | 4923.63
+      195 | Fanchon Strass       | London      |          247.64 | Parts       | Incredible Nose Hair Growth          | 14 March 2023     |  6474.5
+       77 | Theodoric Henze      | Online      |           34.22 | Promotional | lucky charm                          | 14 April 2022     |  5422.5
+      178 | Eveline De Paoli     | Stockholm   |           13.81 | Fashion     | handstands                           | 29 November 2022  | 7476.02
+      104 | Jozef Esler          | Stockholm   |           563.6 | Parts       | human GPS                            | 07 April 2025     | 8480.52
+       93 | Margareta Hooks      | Athens      |          265.88 | Swimsuit    | wiggle ears                          | 06 September 2024 | 2925.11
+       97 | Ajay Giametti        | Milan       |          126.19 | Fashion     | wiggle ears                          | 05 July 2023      | 9075.43
+       42 | Ninetta Pettwood     | Athens      |          546.79 | Swimsuit    | Instantaneous Spoon Bending          | 14 March 2022     | 8407.88
+        6 | Cat Wang             | Milan       |             600 | Fashion     | Catwalker                            | 14 May 2022       |    3600
+      137 | Ber Cawkwell         | Stockholm   |          760.11 | Promotional | freckles on nose                     | 22 January 2024   | 6097.88
+       43 | Scot Connow          | Stockholm   |          143.37 | Commercial  | Superhuman Lip Syncing               | 11 March 2022     | 2910.15
+        5 | Sarah B              | Online      |          432.25 | Fitness     | Influencer                           | 23 October 2022   |    3458
+       36 | Gilberta Leavey      | Los Angeles |          150.69 | Fashion     | Unlimited Dance Moves                | 23 March 2025     |  7227.5
+      154 | Cristal Jorck        | Milan       |          796.53 | Fashion     | perfect pitch                        | 15 June 2023      | 2201.35
+        9 | Salle De Bain        | Stockholm   |             150 | Commercial  | Architect                            | 16 July 2022      |    1050
+      124 | Orv Hurle            | Online      |           581.7 | Fitness     | Incredible Nose Hair Growth          | 16 August 2025    | 4162.02
+      205 | Patrice Philippson   | Crewe       |          590.69 | Promotional | touch nose with tongue               | 09 September 2024 | 7178.51
+       11 | Hannah Bee           | Milan       |             325 | Promotional | Photography                          | 1 March 2022      |    1625
+      138 | Bettina Brahmer      | Milan       |          247.11 | Fashion     | Telepathic Yawn                      | 01 April 2022     | 9210.76
+       65 | Coletta Jonson       | Stockholm   |          267.08 | Fashion     | double jointed thumbs                | 01 September 2023 |  2414.3
+      145 | Melina Heilds        | Online      |          280.63 | Promotional | Superhuman Lip Syncing               | 06 March 2022     | 8613.84
+      182 | Rodrique Shackell    | Online      |          733.96 | Parts       | Instantaneous Spoon Bending          | 20 September 2024 | 4259.19
+      128 | Hale Fairburn        | Milan       |            84.4 | Fashion     | finding loose change                 | 10 May 2024       | 6096.36
+      100 | Whitman Neads        | Los Angeles |          804.73 | Fitness     | parallel parking                     | 30 October 2024   | 6397.33
+      112 | Jared Slimming       | London      |          817.63 | Parts       | knowing when it's going to rain      | 23 March 2023     |  4964.9
+       96 | Jeni Michel          | London      |          613.03 | Swimsuit    | double jointed thumbs                | 22 September 2023 | 4829.27
+       51 | Gregoor Pearne       | Athens      |          745.96 | Swimsuit    | Superhuman Hiccup Control            | 20 October 2024   | 5348.84
+       58 | Lesly Mallinar       | Athens      |           833.1 | Swimsuit    | handstands                           | 20 March 2024     | 4036.88
+       78 | Delinda Raubenheim   | Milan       |          750.85 | Glamour     | handstands                           | 28 November 2023  | 9757.66
+       46 | Meyer Potapczuk      | Crewe       |          692.23 | Promotional | Unlimited Laughter Generation        | 15 September 2025 | 2827.29
+       34 | Selene Fowle         | Milan       |          897.98 | Fashion     | Invisible Sneeze                     | 02 June 2022      | 5694.69
+       15 | Pat Munns            | Milan       |          737.96 | Fashion     | Super Slow Motion                    | 07 May 2022       | 2530.35
+        7 | Starr Schema         | Crewe       |             250 | Glamour     | Databases                            | 12 September 2022 |    1500
+      211 | Joanna Cogdon        | Los Angeles |          568.89 | Fitness     | Uncontrollable Tickling              | 10 November 2025  | 1006.37
+       45 | Carmon Orfeur        | Stockholm   |          691.41 | Fashion     | Infinite Clumsiness                  | 26 May 2024       | 7510.91
+      196 | Adriano Carrick      | Stockholm   |          935.35 | Promotional | touch nose with tongue               | 30 March 2023     | 3144.76
+      175 | Evangelia Cristea    | Los Angeles |          289.02 | Fitness     | Invisible Air Guitar Playing         | 03 March 2022     | 2123.16
+      117 | Millard Scurrer      | Los Angeles |           836.9 | Fitness     | Unlimited Dance Moves                | 24 September 2022 | 9885.37
+       38 | Aridatha Ianinotti   | Stockholm   |          822.21 | Promotional | Infinite Dad Jokes                   | 15 February 2022  | 8266.27
+      208 | Jarrod Lorriman      | Stockholm   |          826.13 | Parts       | Super Speed Typing                   | 26 October 2024   | 8119.76
+       32 | Tally Durrad         | Los Angeles |          648.85 | Fitness     | Infinite Clumsiness                  | 19 October 2023   | 7242.38
+      107 | Delilah Ducker       | Crewe       |           45.43 | Glamour     | Invisible Burping                    | 07 August 2022    | 8934.36
+       69 | Roderick Piotrkowski | Crewe       |          677.03 | Fitness     | Extreme Paper Cut                    | 18 January 2022   | 3370.55
+      143 | Donna Spofford       | Athens      |          138.01 | Fashion     | Invisible Sneeze                     | 14 December 2025  | 1411.17
+      193 | Jackie Preon         | Crewe       |          254.08 | Swimsuit    | lucky charm                          | 10 September 2024 | 1848.03
+       70 | Dniren Sulley        | Milan       |          678.53 | Promotional | parallel parking                     | 30 March 2025     | 5402.89
+        8 | Sam Pagne            | Athens      |          899.99 | Swimsuit    | Old-money                            | 20 January 2022   | 9899.89
+      188 | Merlina Beamson      | Los Angeles |          434.15 | Fitness     | Extreme Paper Cut                    | 23 May 2023       | 3035.88
+      169 | Codie Warters        | Athens      |           23.24 | Glamour     | Turn Anything into a Dad Joke        | 23 December 2022  | 1086.75
+      209 | Reena Dunkersley     | Online      |          368.22 | Fitness     | lucky charm                          | 05 March 2022     | 8589.33
+       73 | Filia Prest          | London      |          482.12 | Fashion     | Unlimited Laughter Generation        | 09 April 2025     | 2174.42
+       24 | Lynea Van den Bosch  | Los Angeles |          800.24 | Fitness     | Super Slow Motion                    | 28 May 2024       | 5921.78
+       88 | Halimeda Cordeix     | London      |          313.71 | Parts       | Invisible Sneeze                     | 22 April 2023     | 8389.94
+       10 | Slam Dunk            | Los Angeles |          801.65 | Fitness     | High-tops                            | 23 August 2022    | 7214.85
+      213 | Deane Blinkhorn      | Athens      |          647.59 | Fashion     | Telepathic Yawn                      | 05 September 2025 | 3657.26
+       59 | Agnesse Peniman      | Crewe       |          462.78 | Parts       | Super Slow Motion                    | 13 June 2025      | 5597.08
+      190 | Raquela Kalkhoven    | Crewe       |          985.08 | Fitness     | parallel parking                     | 25 August 2023    | 7535.87
+      127 | Dorie Sperwell       | Stockholm   |          604.15 | Commercial  | movie quotes                         | 30 July 2022      | 7292.63
+      120 | Kyle Bester          | Milan       |          180.42 | Fashion     | handstands                           | 18 October 2022   | 8509.09
+      150 | Waldo Dary           | Stockholm   |          622.64 | Promotional | Incredible Nose Hair Growth          | 10 August 2024    | 2418.04
+       41 | Carrie Gerling       | Athens      |          358.29 | Swimsuit    | double jointed thumbs                | 14 February 2022  |    5109
+      160 | Kenny Petrelluzzi    | Online      |          853.31 | Fitness     | wiggle ears                          | 07 August 2023    | 7216.39
+      174 | Tony Rime            | Los Angeles |          544.18 | Fitness     | Incredible Juggling Skills           | 10 April 2023     | 3280.61
+      170 | Tito Naisbit         | London      |          235.89 | Commercial  | Extreme Rubber Face Flexibility      | 25 January 2022   |  5136.9
+      166 | Even Fayerbrother    | Online      |          382.68 | Parts       | Super Sticky Fingers                 | 22 February 2023  | 3228.12
+      130 | Celka Paladino       | London      |          288.15 | Parts       | Extreme Paper Cut                    | 06 October 2024   | 5309.95
+       82 | Stacey Congreve      | London      |          711.79 | Parts       | fall asleep anywhere                 | 14 May 2025       |  3232.8
+      157 | Amber Nisuis         | Crewe       |           40.47 | Fashion     | Incredible Nose Hair Growth          | 20 December 2024  | 3022.28
+      141 | Tildi Grigoryov      | Crewe       |          285.38 | Swimsuit    | Mildly Annoying Whistle              | 15 September 2022 | 5845.68
+      194 | Patrice Ferrier      | Online      |           495.4 | Fitness     | Super Ticklish Fingers               | 07 October 2023   | 5251.42
+      155 | Brandice Lamberton   | Athens      |          712.52 | Swimsuit    | Unbreakable Shoelaces                | 31 August 2025    | 1905.51
+      186 | Melissa Albers       | Los Angeles |          799.12 | Fitness     | Uncontrollable Tickling              | 08 October 2022   | 6013.96
+       53 | Eugenia McCraine     | Online      |          449.59 | Promotional | Invisible Sneeze                     | 29 September 2022 | 1263.75
+      116 | Ingemar Gaul         | Online      |          688.47 | Glamour     | Extreme Sarcasm Power                | 22 November 2025  |  4189.8
+      163 | Ingeberg Wooderson   | Stockholm   |          669.02 | Glamour     | fall asleep anywhere                 | 21 January 2024   | 5151.73
+       67 | Nels Jaumet          | Los Angeles |          921.94 | Fitness     | finding loose change                 | 15 January 2024   | 3398.12
+      191 | Bili Wilkins         | Milan       |          335.24 | Fashion     | finding loose change                 | 03 May 2025       | 8759.93
+      144 | Nanny Camerana       | Los Angeles |          717.28 | Commercial  | Superhuman Lip Syncing               | 05 May 2022       | 4115.49
+      123 | Toni Drei            | Milan       |          194.82 | Parts       | Unbreakable Shoelaces                | 03 February 2023  | 1133.78
+      156 | Auguste Fisbey       | Los Angeles |           57.17 | Fitness     | Infinite Dad Jokes                   | 07 October 2024   | 4119.01
+      152 | Robinson Sapsforde   | Stockholm   |          539.74 | Glamour     | Telepathic Puns                      | 17 December 2024  |  5615.6
+      121 | Anna diane Blondin   | Stockholm   |          502.86 | Fitness     | freckles on nose                     | 20 January 2024   | 2460.48
+       80 | Holly Thwaites       | Online      |          257.56 | Fashion     | freckles on nose                     | 06 January 2022   | 5813.02
+      164 | Vince Dendon         | Crewe       |           353.1 | Fashion     | Infinite Hiccups                     | 26 October 2023   | 1436.69
+      140 | Dalli Wicklen        | London      |          455.57 | Parts       | perfect pitch                        | 22 August 2022    | 3224.95
+       94 | Livvy Brattan        | Los Angeles |          732.49 | Promotional | Instantaneous Costume Changes        | 05 September 2023 |  3356.7
+      110 | Bayard Camilleri     | Milan       |          540.52 | Promotional | Superhuman Hiccup Control            | 29 October 2022   | 3700.51
+       76 | Darill Rosenthal     | Los Angeles |          951.66 | Fitness     | movie quotes                         | 20 April 2025     | 8437.51
+      197 | Corette Forgan       | Athens      |           288.4 | Promotional | Invisible Air Guitar Playing         | 08 November 2025  | 4296.85
+       33 | Amie Pepler          | Los Angeles |          823.67 | Fitness     | Turn Anything into a Dad Joke        | 14 August 2024    | 6640.76
+       49 | Daron Humpage        | Milan       |          412.53 | Fashion     | forgetting birthdays                 | 11 April 2023     | 3763.64
+       84 | Kennie Phipp         | Milan       |          784.17 | Fitness     | lucky charm                          | 26 July 2025      | 5466.73
+       13 | Raul Pogerson        | Stockholm   |              50 | Commercial  | Messy eating                         | 12 September 2022 |     950
+      158 | Zared Hartropp       | Athens      |          294.07 | Promotional | Incredible Nose Hair Growth          | 03 May 2022       | 9878.76
+      167 | Lottie Oulner        | Milan       |             725 | Fashion     | Infinite Clumsiness                  | 24 September 2024 | 3258.72
+      206 | Kiley Hafner         | Stockholm   |          914.95 | Fashion     | freckles on nose                     | 30 August 2025    |  5511.4
+       89 | Orin Smuth           | Crewe       |          138.11 | Glamour     | Super Sticky Fingers                 | 07 July 2025      |  1706.8
+      149 | Shepard Rawcliffe    | Athens      |          819.18 | Swimsuit    | Turn Anything into a Dad Joke        | 20 June 2023      | 6523.19
+      161 | Veronica Guidoni     | Crewe       |          276.57 | Fashion     | touch nose with tongue               | 03 December 2024  | 3793.78
+      108 | Regen Aldrin         | Stockholm   |          440.61 | Fashion     | Invisible Sneeze                     | 07 June 2024      |    2945
+       86 | Marji Semorad        | Crewe       |          335.98 | Promotional | Superhuman Hiccup Control            | 04 June 2022      | 9433.66
+       55 | Barbabas Biles       | Athens      |          694.95 | Fitness     | Super Speed Typing                   | 21 February 2023  | 6153.47
+       26 | Laryssa Gowthrop     | Milan       |          525.18 | Fashion     | Mind Reading Comedy                  | 11 April 2024     | 8164.88
+       99 | Rayshell Beresfore   | London      |          376.86 | Parts       | Invisible Burping                    | 27 July 2025      | 9671.18
+       98 | Micaela Galliford    | Stockholm   |           61.11 | Fashion     | Telepathic Puns                      | 15 March 2023     |  7092.3
+       47 | Melisandra Achurch   | Stockholm   |           20.99 | Fashion     | Super Ticklish Fingers               | 04 March 2024     | 9410.09
+      105 | Jamey Golley         | Crewe       |          867.13 | Fitness     | double jointed thumbs                | 23 August 2025    |  8027.5
+       29 | Zenia Faich          | Los Angeles |             444 | Fashion     | Incredible Juggling Skills           | 26 February 2025  |  8640.6
+        3 | Jarred MacKenzie     | Los Angeles |             170 | Fitness     | Fire_eating                          | 8 January 2022    |    1530
+      153 | Bjorn Tootin         | Crewe       |          212.03 | Glamour     | perfect pitch                        | 04 July 2024      | 4732.05
+        1 | Bartholomew P        | Milan       |          499.99 | Fashion     | Pro strutter                         | 15 November 2022  | 2999.94
+      134 | Sammy Mohun          | Crewe       |          565.68 | Promotional | Instantaneous Spoon Bending          | 29 January 2022   | 8979.97
+       64 | Hagan Romanini       | Crewe       |          965.73 | Glamour     | Uncontrollable Tickling              | 07 September 2022 | 6381.88
+      165 | La verne Scroxton    | Athens      |          917.21 | Promotional | Uncontrollable Tickling              | 07 March 2022     | 1800.06
+      159 | Morlee Thomtson      | Stockholm   |          927.93 | Commercial  | Uncontrollable Tickling              | 11 May 2023       | 1704.39
+       85 | Pryce Tolotti        | Milan       |          109.59 | Fashion     | Super Ticklish Fingers               | 09 January 2025   | 7511.87
+       16 | Kasper Topling       | London      |          905.77 | Fashion     | Invisible Burping                    | 25 September 2022 | 5981.72
+      198 | Lyndsay Schirak      | Stockholm   |          600.23 | Glamour     | wiggle ears                          | 10 December 2025  | 8796.78
+      173 | Esma Penning         | Milan       |          696.91 | Promotional | Incredible Nose Hair Growth          | 16 December 2022  | 6305.37
+      214 | Lowrance Brattell    | Milan       |          588.22 | Promotional | Instantaneous Costume Changes        | 24 February 2025  | 1849.79
+       44 | Zandra Siggs         | Stockholm   |          274.27 | Parts       | Super Sticky Fingers                 | 25 December 2025  | 2010.34
+      168 | Ker Kidman           | Los Angeles |          168.78 | Fitness     | Unlimited Dance Moves                | 22 February 2023  | 9135.05
+      106 | Colin Palatini       | Stockholm   |          877.37 | Parts       | double jointed thumbs                | 01 January 2025   | 2085.11
+      183 | Dredi Wharby         | London      |          719.06 | Parts       | Mildly Annoying Whistle              | 10 July 2023      | 9449.54
+      204 | Flossy Thurling      | Los Angeles |           803.8 | Fitness     | Infinite Dad Jokes                   | 31 October 2024   | 8659.08
+      151 | Daveta Mather        | Crewe       |          755.48 | Fashion     | Incredible Juggling Skills           | 10 March 2022     | 3097.55
+       75 | Janey Fluin          | Milan       |          263.88 | Fitness     | handstands                           | 02 May 2024       | 4855.92
+      176 | Tyrone Beckmann      | Athens      |          900.35 | Swimsuit    | Extreme Paper Cut                    | 23 December 2023  | 1265.33
+      146 | Monti Titlow         | Crewe       |          643.41 | Swimsuit    | Extreme Paper Cut                    | 21 July 2025      | 6299.99
+      125 | Karil Jerwood        | Stockholm   |          345.32 | Promotional | handstands                           | 18 March 2024     | 5611.36
+       20 | Gwenni Dubarry       | Los Angeles |            73.5 | Fitness     | Incredible Nose Hair Growth          | 30 August 2022    | 7029.15
+      139 | Clemens Gaythorpe    | London      |          393.83 | Commercial  | wiggle ears                          | 05 February 2022  | 3307.84
+        4 | Rathbones Arr        | London      |          263.82 | Parts       | Hand modelling                       | 6 March 2022      | 1846.74
+      148 | West Tattersill      | Stockholm   |          540.01 | Parts       | forgetting birthdays                 | 29 April 2022     | 9696.84
+      142 | Phylis Wildor        | Stockholm   |          988.45 | Promotional | Telepathic Puns                      | 28 February 2022  | 6430.45
+       62 | Verena Houtby        | Stockholm   |          348.59 | Promotional | lucky charm                          | 27 January 2023   | 8403.66
+      131 | Lona Firks           | Crewe       |          898.42 | Glamour     | freckles on nose                     | 17 September 2024 | 3841.03
+      111 | Jacky Ibbeson        | Athens      |          789.08 | Swimsuit    | Invisible Sneeze                     | 25 April 2025     | 9967.48
+       81 | Georgie Sweetman     | Milan       |          282.08 | Glamour     | handstands                           | 10 April 2023     | 7200.32
+       83 | Corbie Jillings      | Stockholm   |          459.55 | Fitness     | Infinite Hiccups                     | 02 August 2025    | 2907.12
+      179 | Janel Speechley      | Athens      |           39.38 | Swimsuit    | Infinite Dad Jokes                   | 30 August 2025    | 7675.17
+       87 | Kissie Jandel        | Stockholm   |          370.34 | Parts       | Super Sticky Fingers                 | 27 June 2022      | 6101.96
+       21 | Booth Innocenti      | Milan       |           622.6 | Fitness     | Incredible Juggling Skills           | 09 March 2022     | 6664.83
+      122 | Marcello Filliskirk  | Crewe       |          550.39 | Fashion     | movie quotes                         | 06 February 2022  | 6632.68
+       50 | Leodora Trembath     | Athens      |           82.59 | Fitness     | Infinite Hiccups                     | 21 January 2022   | 2375.73
+       68 | Harman Callam        | Los Angeles |          217.82 | Fitness     | forgetting birthdays                 | 04 October 2022   |  5207.4
+      181 | Hilton Budding       | Athens      |          653.81 | Promotional | Ability to Speak in Animal Languages | 27 August 2023    | 9677.18
+      118 | Sibyl Strathman      | Online      |          225.92 | Promotional | forgetting birthdays                 | 04 September 2025 | 9410.86
+      189 | Ernestus Dyer        | Los Angeles |           43.58 | Promotional | Invisible Sneeze                     | 18 June 2024      | 8226.02
+       72 | Keven Tanby          | Milan       |          535.66 | Fashion     | Mildly Annoying Whistle              | 21 October 2024   | 9427.66
+       23 | Miles Newgrosh       | Crewe       |          968.73 | Fashion     | Extreme Paper Cut                    | 30 June 2025      | 3676.74
+       56 | Titus Lexa           | Online      |           261.3 | Promotional | fall asleep anywhere                 | 04 February 2024  | 6448.92
+       40 | Toinette Machon      | Online      |          953.21 | Promotional | finding loose change                 | 22 June 2024      | 7406.08
+       30 | Ashlie Seater        | Milan       |          625.87 | Promotional | Infinite Clumsiness                  | 02 October 2023   | 7123.58
+      114 | Drugi St. Leger      | Athens      |          639.33 | Swimsuit    | finding loose change                 | 29 April 2023     | 7228.36
+      177 | Sharai Vines         | Milan       |          114.29 | Fashion     | Mind Reading Comedy                  | 23 December 2025  | 7281.33
+       66 | Jobyna Denisevich    | London      |          462.76 | Fashion     | freckles on nose                     | 30 March 2025     |  4860.3
+      135 | Anatole Fearnyhough  | London      |          123.27 | Swimsuit    | Invisible Air Guitar Playing         | 18 April 2023     | 1427.38
+      119 | Janella Clearie      | Milan       |          648.68 | Fashion     | Super Ticklish Fingers               | 31 October 2024   | 9483.61
+      102 | Lucie Demer          | Los Angeles |          541.81 | Promotional | Unlimited Laughter Generation        | 08 February 2022  | 9538.42
+       17 | Ulrika MacGarvey     | Stockholm   |          142.15 | Parts       | Telepathic Yawn                      | 25 April 2022     | 7012.22
+       12 | Rainsface W          | Athens      |             120 | Parts       | Impromptu crying                     | 14 May 2022       |     480
+      202 | Orly Gasking         | London      |          597.45 | Commercial  | fall asleep anywhere                 | 18 March 2024     |  5413.6
+       22 | Bess Wildman         | Los Angeles |          105.66 | Promotional | Superhuman Lip Syncing               | 25 June 2023      | 7338.05
+        2 | Notso Neat           | Online      |            9.99 | Promotional | The dadbod drop                      | 12 September 2022 |  149.85
+      129 | Lenard Lumm          | Online      |          114.18 | Fashion     | Invisible Sneeze                     | 07 July 2023      | 7661.66
+      203 | Stanleigh Garwood    | Athens      |           30.79 | Swimsuit    | Super Slow Motion                    | 05 May 2023       |  3115.1
+      162 | Cloris Durrell       | Crewe       |          814.26 | Glamour     | Ability to Speak in Animal Languages | 15 June 2025      | 8471.67
+      192 | Wye Ferebee          | Los Angeles |            41.8 | Fashion     | movie quotes                         | 28 May 2023       | 9076.46
+      172 | Lotty Kristoffersen  | Crewe       |          797.85 | Swimsuit    | Infinite Dad Jokes                   | 03 November 2023  |  5868.6
+       19 | Haskel McKinless     | Milan       |          146.77 | Fashion     | Incredible Juggling Skills           | 10 October 2022   | 8915.73
+      109 | Millard Longhorn     | Los Angeles |          510.92 | Fitness     | wiggle ears                          | 11 May 2024       |  1126.5
+       57 | Grethel Matantsev    | London      |          876.86 | Parts       | Infinite Clumsiness                  | 08 June 2022      | 5558.62
+      187 | Anatol Culligan      | Milan       |          606.07 | Fashion     | Superhuman Lip Syncing               | 27 October 2025   | 7542.99
+       48 | Hervey Fadell        | London      |          104.36 | Fitness     | forgetting birthdays                 | 08 April 2025     | 2261.26
+      113 | Hervey Mickleburgh   | Stockholm   |          951.77 | Parts       | Super Slow Motion                    | 30 May 2025       | 4824.29
+      101 | Nadia Grimmer        | London      |          900.55 | Fashion     | Infinite Clumsiness                  | 26 March 2022     | 9305.22
+      136 | Carey Stennes        | Los Angeles |          960.39 | Fashion     | Telepathic Yawn                      | 17 August 2024    | 4065.64
+       92 | Dona Whittleton      | Milan       |          729.24 | Fashion     | Instantaneous Costume Changes        | 01 September 2024 | 4670.84
+       71 | Shanon Bodman        | London      |          596.48 | Parts       | finding loose change                 | 11 September 2024 | 9968.41
+      133 | Sheela Illsley       | Los Angeles |          759.93 | Fitness     | Super Ticklish Fingers               | 26 November 2023  | 1456.66
+       37 | Sergio Haversum      | Online      |          773.96 | Promotional | double jointed thumbs                | 03 November 2023  |  9123.7
+       54 | Gus Disman           | Athens      |          519.32 | Promotional | movie quotes                         | 11 March 2023     |  4491.6
+       27 | Wolfgang Oxshott     | Crewe       |          346.91 | Glamour     | fall asleep anywhere                 | 11 April 2024     | 3103.04
+       52 | Tobin Eskell         | London      |           23.65 | Fashion     | Unlimited Laughter Generation        | 14 October 2022   | 9915.01
+      201 | Shannon Dougharty    | Online      |           65.94 | Promotional | handstands                           | 20 June 2023      | 1487.82
+      132 | Bank Hurl            | Stockholm   |           15.53 | Glamour     | human GPS                            | 12 May 2022       | 1053.43
+       95 | Skyler Arend         | Crewe       |          325.12 | Fitness     | parallel parking                     | 26 December 2023  | 8178.69
+       28 | Alejandrina Bambrugh | Athens      |          577.21 | Swimsuit    | finding loose change                 | 21 February 2022  | 6168.83
+      115 | Cyb Pryn             | Los Angeles |          128.81 | Fashion     | touch nose with tongue               | 26 August 2025    | 3327.48
+       90 | Constanta Teas       | London      |          698.73 | Swimsuit    | Instantaneous Spoon Bending          | 23 May 2023       |  9167.1
+       61 | Farleigh Dunsire     | Crewe       |          272.13 | Glamour     | lucky charm                          | 04 September 2022 | 9035.74
+      212 | Jemmie Cannop        | Milan       |           13.34 | Fashion     | knowing when it's going to rain      | 24 November 2025  | 8575.22
+      171 | Tomkin Soan          | Los Angeles |          324.56 | Fashion     | Invisible Sneeze                     | 20 April 2022     |  9400.5
+      184 | Joelie Bolmann       | Online      |          881.07 | Promotional | Extreme Rubber Face Flexibility      | 30 January 2022   | 8584.72
+      126 | Devan Henrie         | Crewe       |          970.13 | Parts       | freckles on nose                     | 10 November 2022  | 2958.87
+       63 | Yetty Wildblood      | Online      |          261.59 | Promotional | double jointed thumbs                | 09 August 2022    | 5589.56
+       39 | Jervis Mathey        | Los Angeles |          969.88 | Fitness     | Instantaneous Spoon Bending          | 28 December 2024  |    8553
+(214 rows)
+
+ model_id |       brand       
+----------+-------------------
+        1 | Louboutin
+        1 | H&M
+        2 | Aldi
+        2 | Poundland
+        3 | Patagonia
+        3 | Buff
+        3 | Salomon
+        4 | Adidas
+        5 | Ebay
+        5 | Vinted
+        5 | Instagram
+        6 | Charities
+        7 | Oricle
+        7 | Marks and Spencer
+        8 | Harrods
+        8 | HSBC
+        9 | Ikea
+        9 | Wayfair
+        9 | Amazon
+       10 | Nike
+       10 | Adidas
+       10 | Reebok
+       11 | Chanel
+       11 | Dior
+       11 | Stella McCartney
+       12 | United Utilities
+       13 | Listo Burritos
+       14 | Marvel Studios
+       15 | Versace
+       16 | Ikea
+       17 | Patagonia
+       18 | Salomon
+       19 | Amazon
+       20 | Versace
+       21 | Valentino
+       22 | HSBC
+       23 | Marks and Spencer
+       24 | Gucci
+       25 | Oricle
+       26 | Marks and Spencer
+       27 | Givenchy
+       28 | Instagram
+       29 | Marks and Spencer
+       30 | Harrods
+       31 | HSBC
+       32 | Chanel
+       33 | Charities
+       34 | Poundland
+       35 | Chanel
+       36 | Fendi
+       37 | Chanel
+       38 | Instagram
+       39 | Instagram
+       40 | Gucci
+       41 | Stella McCartney
+       42 | Prada
+       43 | Vinted
+       44 | Prada
+       45 | Salomon
+       46 | Reebok
+       47 | Poundland
+       48 | HSBC
+       49 | Salomon
+       50 | Adidas
+       51 | HSBC
+       52 | Louboutin
+       53 | Fendi
+       54 | Charities
+       55 | Ebay
+       56 | Dior
+       57 | Salomon
+       58 | Charities
+       59 | Louboutin
+       60 | Versace
+       61 | Chanel
+       62 | Salomon
+       63 | Stella McCartney
+       64 | Ikea
+       65 | Louboutin
+       66 | Patagonia
+       67 | Prada
+       68 | Balenciaga
+       69 | Fendi
+       70 | Poundland
+       71 | Adidas
+       72 | Patagonia
+       73 | Oricle
+       74 | Aldi
+       75 | Aldi
+       76 | HSBC
+       77 | Gucci
+       78 | Ebay
+       79 | Charities
+       80 | Adidas
+       81 | Amazon
+       82 | Dior
+       83 | Versace
+       84 | Ebay
+       85 | Buff
+       86 | Salomon
+       87 | Ikea
+       88 | Gucci
+       89 | Chanel
+       90 | Chanel
+       91 | Prada
+       92 | Salomon
+       93 | Stella McCartney
+       94 | Oricle
+       95 | Nike
+       96 | Vinted
+       97 | Louboutin
+       98 | Prada
+       99 | Buff
+      100 | Instagram
+      101 | Salomon
+      102 | Louis Vuitton
+      103 | Ebay
+      104 | Dior
+      105 | HSBC
+      106 | Wayfair
+      107 | Adidas
+      108 | Adidas
+      109 | Amazon
+      110 | Charities
+      111 | Harrods
+      112 | Oricle
+      113 | Aldi
+      114 | Harrods
+      115 | Oricle
+      116 | Ikea
+      117 | Buff
+      118 | H&M
+      119 | Buff
+      120 | Vinted
+      121 | Salomon
+      122 | Charities
+      123 | Balenciaga
+      124 | Oricle
+      125 | H&M
+      126 | Balenciaga
+      127 | Salomon
+      128 | Amazon
+      129 | HSBC
+      130 | HSBC
+      131 | Patagonia
+      132 | Versace
+      133 | Vinted
+      134 | H&M
+      135 | Balenciaga
+      136 | Instagram
+      137 | Charities
+      138 | Adidas
+      139 | H&M
+      140 | Givenchy
+      141 | HSBC
+      142 | H&M
+      143 | Versace
+      144 | Chanel
+      145 | Harrods
+      146 | Marks and Spencer
+      147 | Wayfair
+      148 | Versace
+      149 | HSBC
+      150 | Versace
+      151 | Ikea
+      152 | Reebok
+      153 | Harrods
+      154 | Harrods
+      155 | Chanel
+      156 | Ebay
+      157 | Prada
+      158 | Marks and Spencer
+      159 | Wayfair
+      160 | Louis Vuitton
+      161 | Reebok
+      162 | Harrods
+      163 | Valentino
+      164 | Prada
+      165 | Oricle
+      166 | Poundland
+      167 | Versace
+      168 | Fendi
+      169 | Givenchy
+      170 | Salomon
+      171 | Aldi
+      172 | Vinted
+      173 | Buff
+      174 | Stella McCartney
+      175 | Wayfair
+      176 | Louboutin
+      177 | Adidas
+      178 | Buff
+      179 | Salomon
+      180 | Oricle
+      181 | Louboutin
+      182 | Amazon
+      183 | Fendi
+      184 | Aldi
+      185 | Nike
+      186 | Reebok
+      187 | Stella McCartney
+      188 | Buff
+      189 | Marks and Spencer
+      190 | Nike
+      191 | Reebok
+      192 | Adidas
+      193 | Marks and Spencer
+      194 | Stella McCartney
+      195 | Vinted
+      196 | Prada
+      197 | Fendi
+      198 | Nike
+      199 | Oricle
+      200 | Chanel
+      201 | Ebay
+      202 | Ebay
+      203 | Salomon
+      204 | Ebay
+      205 | Wayfair
+      206 | Fendi
+      207 | Ikea
+      208 | Valentino
+      209 | Dior
+      210 | Marks and Spencer
+      211 | Patagonia
+      212 | Stella McCartney
+      213 | Wayfair
+      214 | Poundland
+(228 rows)
+

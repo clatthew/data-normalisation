@@ -237,3 +237,25 @@ VALUES
     ('Jemmie Cannop','Milan',13.34,'Fashion','Verity','Stella McCartney','knowing when it''s going to rain',2,'24 November 2025',8575.22),
     ('Deane Blinkhorn','Athens',647.59,'Fashion','Katherine','Wayfair','Telepathic Yawn',6,'05 September 2025',3657.26),
     ('Lowrance Brattell','Milan',588.22,'Promotional','Verity','Poundland','Instantaneous Costume Changes',10,'24 February 2025',1849.79);
+
+-- SELECT * FROM models;
+
+CREATE TABLE models_1nf AS
+SELECT
+    model_id
+    , model_name
+    , area
+    , price_per_event
+    , category
+    , agent
+    , UNNEST(STRING_TO_ARRAY(brand, ', ')) AS brand
+    , trait
+    , rating
+    , next_event_date
+    , revenue
+FROM models;
+
+ALTER TABLE models_1nf
+ADD PRIMARY KEY (model_id, brand);
+
+SELECT * FROM models_1nf;
