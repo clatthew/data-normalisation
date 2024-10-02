@@ -64,10 +64,52 @@ UPDATE 1
 Models doing work with Dior:
     model_name    |     agent_name     | area_name 
 ------------------+--------------------+-----------
- Hannah Bee       | Verity's assistant | Milan
  Jozef Esler      | Christian          | Stockholm
  Stacey Congreve  | Kev                | London
- Reena Dunkersley | Alex               | Online
  Titus Lexa       | Alex               | Online
+ Reena Dunkersley | Alex               | Online
+ Hannah Bee       | Verity's assistant | Milan
 (5 rows)
+
+Sam Pagne has been dropped by Harrods due to questionable social media posts about Bounties in Celebrations.
+Update the data accordingly.
+
+Sam Pagne's existing brand relationships:
+ model_name | brand_name 
+------------+------------
+ Sam Pagne  | HSBC
+ Sam Pagne  | Harrods
+(2 rows)
+
+DELETE 1
+Sam Pagne's updated brand relationships:
+ model_name | brand_name 
+------------+------------
+ Sam Pagne  | HSBC
+(1 row)
+
+A new model has hit the scene and will be working with Rose and Aldi.
+They're a fan of the central aisle of delights and charge just £20 per event.
+Their rating is 4 and their trait is Browser.
+Update the data accordingly.
+
+Before insert: searching for models with trait 'browser':
+ model_name | agent_name | price_per_event | rating | trait 
+------------+------------+-----------------+--------+-------
+(0 rows)
+
+INSERT 0 1
+INSERT 0 1
+UPDATE 1
+
+After insert:
+ model_name | agent_name | price_per_event | rating |  trait  
+------------+------------+-----------------+--------+---------
+ Cuthbert   | Rose       |              20 |      4 | browser
+(1 row)
+
+ model_id 
+----------
+      215
+(1 row)
 

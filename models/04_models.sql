@@ -69,5 +69,62 @@ JOIN areas_3nf
     USING (area_id)
 WHERE brand_name = 'Dior';
 
+\echo 'Sam Pagne has been dropped by Harrods due to questionable social media posts about Bounties in Celebrations.\nUpdate the data accordingly.'
 
+\echo '\nSam Pagne''s existing brand relationships:'
+SELECT model_name, brand_name
+FROM brand_relationships_3nf
+JOIN models_3nf
+    USING (model_id)
+JOIN brands_3nf
+    USING (brand_id)
+WHERE model_name = 'Sam Pagne';
 
+DELETE FROM brand_relationships_3nf
+WHERE
+    brand_id = (SELECT brand_id FROM brands_3nf WHERE brand_name = 'Harrods')
+AND
+    model_id = (SELECT model_id FROM models_3nf WHERE model_name = 'Sam Pagne');
+
+\echo 'Sam Pagne''s updated brand relationships:'
+SELECT model_name, brand_name
+FROM brand_relationships_3nf
+JOIN models_3nf
+    USING (model_id)
+JOIN brands_3nf
+    USING (brand_id)
+WHERE model_name = 'Sam Pagne';
+
+\echo 'A new model has hit the scene and will be working with Rose and Aldi.\nThey''re a fan of the central aisle of delights and charge just £20 per event.\nTheir rating is 4 and their trait is Browser.\nUpdate the data accordingly.'
+
+\echo '\nBefore insert: searching for models with trait ''browser'':'
+SELECT model_name, agent_name, price_per_event, rating, trait
+FROM models_3nf
+JOIN agents_3nf
+    USING (agent_id)
+JOIN traits_3nf
+    USING (trait_id)
+WHERE trait = 'browser';
+
+INSERT INTO traits_3nf
+    (trait)
+VALUES
+    ('browser');
+
+INSERT INTO models_3nf(model_name, agent_id, price_per_event, rating)
+SELECT 'Cuthbert', agent_id, 20, 4
+FROM agents_3nf
+WHERE agent_name = 'Rose';
+
+UPDATE models_3nf
+SET trait_id = (SELECT trait_id FROM traits_3nf WHERE trait = 'browser')
+WHERE model_name = 'Cuthbert';
+
+\echo '\nAfter insert:'
+SELECT model_name, agent_name, price_per_event, rating, trait
+FROM models_3nf
+JOIN agents_3nf
+    USING (agent_id)
+JOIN traits_3nf
+    USING (trait_id)
+WHERE trait = 'browser';
