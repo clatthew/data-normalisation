@@ -1,3 +1,2 @@
-# Top Model
-
-Instructions for today's sprint can be found at: https://l2c.northcoders.com/courses/de2-data/data-normalisation
+# Data Normalisation Tasks
+Models data is converted from a single table to a fully-normalised database using PostgreSQL.
